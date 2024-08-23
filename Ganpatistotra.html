@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>शिवोपासन मन्त्राः </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Tiro+Devanagari+Marathi&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+
+/>
+   <style>
+       
+       *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+    
+        
+     body{
+      font-size: 1rem;
+        background-color: #FFF3E7;
+        font-family: 'Times New Roman', Times, serif;
+     }
+
+
+
+
+/* Responsive styles for large screens */
+@media (min-width: 992px) {
+  body{
+    font-size: 1rem;/* Example maximum height */
+  }
+}
+
+/* Responsive styles for medium screens */
+@media (max-width: 991px) {
+  body {
+    font-size: 1rem;/* Example maximum height */
+  }
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 1rem; /* Example maximum height */
+  }
+}
+
+/* Responsive styles for extra small screens (phones) */
+@media (max-width: 576px) {
+  body {
+    font-size: 1rem; /* Example maximum height */
+  }
+}
+
+
+
+.sukta{
+    margin: 2%;
+   
+   line-height: 200%;
+   font-weight:500;
+   
+   
+   
+}
+.sukta1{
+    border:1px solid black;
+   margin: 2%;
+   text-align: center;
+   line-height: 200%;
+   font-weight:500;
+}
+
+#heading-container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it's above other content */
+ 
+}
+
+#background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(Images/grunge-paper-background.jpg);
+  /* opacity: 0.9; Adjust the value between 0 and 1 */
+  z-index: -1;
+  
+}
+
+#heading {
+  position: relative;
+  left: 1%;
+  z-index: 1;
+  /* Additional styling for your text */
+  padding: 20px;
+  color: white; /* Text color, adjust as needed */
+  text-align: center;
+  /* font-size: 5vw; */
+  font-size: 5vw;
+
+}
+/* ------------------------------------------Nav bar----------------------------------------- */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ecdcdc;
+    overflow-x: hidden;
+    transition: 0.5s;
+    /* padding-top: 60px; */
+    z-index: 1002;
+    display: flex;
+    flex-direction:column;
+   align-items: center;
+   
+}
+
+/* Links in the navbar */
+.sidenav a {
+    /* padding: 8px 8px 8px 32px; */
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    text-shadow: 1px 1px 2px white,
+     2px 2px 4px white;
+    
+}
+
+/* Close button */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.menu-btn {
+  font-size: 3.4VW;
+  text-align: center;
+  padding: 0%;
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  left: 1%;
+  z-index: 1001; 
+    animation: blink 1s infinite alternate; 
+   width: 15%;
+   height: 52%;
+   background-color: tomato;
+   color: white;
+   text-shadow: 1px 1px 2px black,
+   2px 2px 4px rgb(12, 10, 10);
+   border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-btn:hover {
+  color: #fff; /* Changing color on hover */
+  transform: translateY(-2px) translateZ(0);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+
+/* --------------------------------------Nav bar button--------------------------------------------- */
+
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 3.5rem;
+  justify-content: center;
+  line-height: 2px;
+  list-style: none;
+  /* overflow: hidden; */
+  padding-left: 16px;
+  padding-right: 16px;
+  position:relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: calc(1rem + 0.5vw); /* Responsive based on viewport width */
+  width: 100%  ;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count:2;
+  
+  }
+@keyframes example
+{from{opacity:0;}to{opacity:100%}}
+
+
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.atharvashirshalist{
+
+  width: 100%;
+  text-align: center;
+  background-color:#FFA500;
+  
+}
+
+.suktalist{
+  width: 100%;
+  text-align: center;
+  background-color:  #87CEFA;
+  
+}
+.stotralist{
+  width: 100%;
+  text-align: center;
+  background-color: #90EE90;
+}
+
+.ashtaklist{
+  width: 100%;
+  text-align: center;
+  background-color: #ee90ee;
+}
+
+.dindoriaartilist{
+  width: 100%;
+  text-align: center;
+  background-color: #90ee95;
+}
+
+a.atharvashirshalist{
+  display: none;
+ 
+}
+
+a.suktalist{
+  display: none;
+ 
+}
+
+a.stotralist{
+  display: none;
+ 
+}
+
+a.ashtaklist{
+  display: none;
+ 
+}
+
+a.dindoriaartilist{
+  display: none;
+ 
+}
+
+
+#atharvashirshaicon {
+            transform: rotate(90deg);
+        }
+
+.Vratlist{
+  width: 100%;
+  text-align: center;
+  background-color: #bb6d08;
+}
+
+
+a.Vratlist{
+  display: none;
+
+}
+/* ----------------------------------------------------------------------------------- */
+    </style>
+</head>
+<body>
+    <div id="heading-container" >
+
+      <nav id="side-navbar" class="sidenav">
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a><br><br>
+    <h3 style="border: 3px dashed #e6b1b1; width: 100% ;height: fit-content; text-align: center;"><strong>अनुक्रमणिका</strong></h3>
+    <button id="" class="button-30 fade-in" role="button" ><a  href="index.html" onclick="closeNav()"><h3>॥ प्रस्तावना ॥<span id="icon">&#10147;</span></a></h3></button>
+    <button id="atharvashirshabutton" class="button-30 fade-in" role="button" ><h3>॥ अथर्वशीर्ष ॥<span id="atharvashirshaicon">&#10147;</span></h3></button>  
+                      <a class="atharvashirshalist" href="Ganpati_Atharvashirha.html" onclick="closeNav()">॥ गणपति अथर्वशीर्ष॥</a>
+    <button id="suktabutton" class="button-30 fade-in" role="button"><h3>॥ सूक्त ॥<span id="icon">&#10147;</span></h3></button>
+                     <a class="suktalist" href="Shrisukta.html" onclick="closeNav()">॥ श्रीसूक्त॥</a>
+                    <a class="suktalist"href="#shreesukta" onclick="closeNav()">॥ पुरुष सूक्त॥</a>
+    <button id="stotrabutton" class="button-30 fade-in" role="button"><h3>॥ स्तोत्रम् ॥ <span id="icon">&#10147;</span></h3></button>
+                    <a class="stotralist"href="Ganpatistotra.html" onclick="closeNav()">॥ गणपती स्तोत्र ॥</a>              
+                    <a class="stotralist"href="Ramrakshastotra.html" onclick="closeNav()">॥ श्रीरामरक्षास्तोत्रम् ॥</a>
+    <button id="ashtakbutton" class="button-30 fade-in" role="button"><h3>॥ अष्टक ॥<span id="icon">&#10147;</span></h3></button>
+                   <a class="ashtaklist"href="Kalbhairavashtak.html" onclick="closeNav()">॥ कालभैरव अष्टक ॥</a>
+    <button id="dindoriaartibutton" class="button-30 fade-in" role="button" style="font-size:5px;"><h3>॥ दिंडोरी प्रणित आरती ॥<span id="icon">&#10147;</span></h3></button>
+                    <a class="dindoriaartilist" href="Dindoribhupali.html" onclick="closeNav()">॥ भुपाळी ॥</a>
+                    <a class="dindoriaartilist" href="Dindori10.30.html" onclick="closeNav()">॥ 10:30 ची स्वामी नैवेद्य आरती ॥</a>
+                    <a class="dindoriaartilist" href="Dindori06.30.html" onclick="closeNav()">॥ 06:30 ची स्वामी नैवेद्य आरती ॥</a>
+    <button id="Vratbutton" class="button-30 fade-in" role="button" style="font-size:5px;"><h3>॥ व्रतवैकल्य ॥<span id="icon">&#10147;</span></h3></button>
+                    <a class="Vratlist" href="" onclick="closeNav()">॥ गणेश चतुर्थी पूजा विधि ॥</a>
+                    <a class="Vratlist" href="Satynarayanpuja.html" onclick="closeNav()">॥ सत्यनारायण पूजा विधि॥</a>
+    </nav>
+    
+
+
+
+    <!-- Button to open navbar -->
+    <button id="menu" class="menu-btn btn btn-primary btn-sm" onclick="openNav()">॥ सूची ॥</button>
+    <!-- <button id="menu" class="menu-btn btn btn-primary" onclick="openNav()">&#9776;</button> -->
+
+      <div id="background-image"></div>
+        <h1 id="heading" class="animate__animated animate__zoomIn">राजेश रमेश रासने वेद प्रचार-प्रसार </h1><img src="https://onedrive.live.com/embed?resid=5C24657F4B8B741C%212750&authkey=%21AGpjUy8HSTrbFAQ" class="img-fluid" style="position: absolute;left: 86vw; top: 3vw;"></div></body>
+    </div>
+    
+    
+
+
+     <div class="sukta1" >
+    
+      <h3 class="sukta">
+      
+        <h2 id="Ganpatistotra" >॥ गणपती स्तोत्र ॥ ( संकटनाशन स्तोत्र )</h2><br>
+            नारद पुराणातील संकट नाशक गणपती स्तोत्राच्या पठणाने सर्व विघ्ने दुर होऊन भगवान गणेशाची कृपा प्राप्त होते.<br>
+            या स्तोत्राच्या पठणाने विद्यार्थ्यास विद्या प्राप्त होते.धन ईच्छुकास धन प्राप्त होते व मोक्ष ईच्छुकास गती प्राप्त होते.<br>
+            प्रणम्य शिरसा देवं गौरीपुत्रं विनायकम् <br>
+            भक्तावासं स्मरेन्नित्यम् आयुष्कामार्थसिद्धये ॥१॥<br><br>
+            
+            <strong>प्रथमं वक्रतुण्डं च एकदन्तं द्वितीयकम्<br>
+            तृतीयं कृष्णपिङगाक्षं गजवक्त्रं चतुर्थकम् ॥२॥</strong><br>
+            (अर्थ-:श्री गणेशाचे पहिले नाव वक्रतुंड, दुसरे एकदंत, तिसरे कृष्णपिंगक्ष आणि चौथे गजवक्त्र आहे.)<br><br>
+
+          <strong>लम्बोदरं पञ्चमं च षष्ठं विकटमेव च<br>
+            सप्तमं विघ्नराजेन्द्रं धुम्रवर्णं तथाष्टकम् ॥३॥</strong><br>
+            (अर्थ-:गणपतीचे पाचवे नाव लंबोदर, सहावे विकट, सातवे विघ्नराजेंद्र आणि आठवे धुम्रवर्णम् आहे.)<br><br>
+
+          <strong>नवमं भालचन्द्रं च दशमं तु विनायकम्<br>
+            एकादशं गणपतिं द्वादशं तु गजाननम् ॥४॥</strong><br>
+            (अर्थ-:गणपतीचे नववे नाव भालचंद्र, दहावे विनायक, अकरावे गणपती आणि बारावे गजानन आहे.)<br><br>
+
+          <strong>द्वादशैतानि नामानि त्रिसंध्यं यः पठेन्नर:<br>
+            न च विघ्नभयं तस्य सर्वसिद्धीकरः प्रभो ॥५॥</strong><br>
+            (अर्थ-:जो कोणी भक्त तिन्ही सांजेला गणपतीची ही बारा नावे पठण करतो. त्याला कोणत्याही प्रकारच्या विघ्नाची भीती राहत नाही. तसेच हे नामस्मरण केल्याने सर्व प्रकारच्या सिद्धी प्राप्त होतात.)<br><br>
+            
+          <strong>विद्यार्थी लभते विद्यां धनार्थी लभते धनम्<br>
+            पुत्रार्थी लभते पुत्रान्मोक्षार्थी लभते गतिम् ॥६॥</strong><br>
+            (अर्थ-:जो विद्यार्थी गणपती स्तोत्र मंत्राचा जप करतो त्याला ज्ञान धन प्राप्त होते. त्याचप्रमाणे संपत्तीची इच्छा असणाऱ्यांना संपत्ती, आपत्यांची इच्छा असणाऱ्यांना आपत्य आणि मोक्ष प्राप्तीची इच्छा असणाऱ्यांना मोक्ष प्राप्त होतो.)<br><br>
+            
+          <strong>जपेद्गणपतिस्तोत्रं षड्भिर्मासै: फलं लभेत्<br>
+            संवत्सरेण सिद्धीं च लभते नात्र संशयः ॥७॥</strong><br>
+            (अर्थ-:जो व्यक्ती गणपती स्तोत्राचा जप करतो त्याला सहा महिन्यांच्या आत अपेक्षित फळप्राप्ती होते आणि एका वर्षात पूर्ण सिद्धी प्राप्त होते.)<br><br>
+            
+          <strong>अष्टभ्यो ब्राह्मणेभ्यश्च लिखित्वा यः समर्पयेत्<br>
+            तस्य विद्या भवेत्सर्वा गणेशस्य प्रसादत: ॥८॥</strong><br>
+            (अर्थ-:जी व्यक्ती हा मंत्र लिहून आठ लोकांच्या स्वाधीन करते, गणेशाच्या कृपेने तिला सर्व विद्या प्राप्त होतात.)<br><br>
+            
+            <strong>इति श्रीनारदपुराणे सङ्कटनाशनं नाम श्रीगणपतिस्तोत्रं संपूर्णम्||</strong><br><br>
+           
+
+        
+      </h3>
+
+
+    </div>
+    <script>
+      function openNav() {
+          document.getElementById("side-navbar").style.width = "320px";
+      }
+
+      function closeNav() {
+          document.getElementById("side-navbar").style.width = "0";
+      }
+
+//  -----------------------------------------------Span Symbole down arrow--------------------------------------------------
+   
+
+
+
+
+       //  -----------------------------------------------atharvashirsha--------------------------------------------------
+           // Function to toggle visibility of suktalist elements
+     function toggleAtharvashirshalist() {
+            var atharvashirshalists = document.querySelectorAll('.atharvashirshalist');
+            atharvashirshalists.forEach(function(atharvashirshalist) {
+                if (atharvashirshalist.style.display === 'none' || atharvashirshalist.style.display === '') {
+                  atharvashirshalist.style.display = 'block';
+                } else {
+                  atharvashirshalist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('atharvashirshabutton').addEventListener('click', function() {
+          toggleAtharvashirshalist();
+        });
+
+        // Function to close the side navbar
+        //function closeNav() {
+            //document.getElementById('side-navbar').style.width = '0';
+        //}
+
+   //  -----------------------------------------------Sukta--------------------------------------------------
+     // Function to toggle visibility of suktalist elements
+     function toggleSuktalist() {
+            var suktalists = document.querySelectorAll('.suktalist');
+            suktalists.forEach(function(suktalist) {
+                if (suktalist.style.display === 'none' || suktalist.style.display === '') {
+                    suktalist.style.display = 'block';
+                } else {
+                    suktalist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('suktabutton').addEventListener('click', function() {
+            toggleSuktalist();
+        });
+
+        // Function to close the side navbar
+        //function closeNav() {
+           // document.getElementById('side-navbar').style.width = '0';
+        //}
+//  -----------------------------------------------Stotra--------------------------------------------------
+function toggleStotralist() {
+            var stotralists = document.querySelectorAll('.stotralist');
+            stotralists.forEach(function(stotralist) {
+                if (stotralist.style.display === 'none' || stotralist.style.display === '') {
+                  stotralist.style.display = 'block';
+                } else {
+                  stotralist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('stotrabutton').addEventListener('click', function() {
+          toggleStotralist();
+        });
+   // Function to close the side navbar
+   //function closeNav() {
+           // document.getElementById('side-navbar').style.width = '0';
+       // }
+
+//  -----------------------------------------------Ashtak--------------------------------------------------
+
+function toggleAshtaklist() {
+            var ashtaklists = document.querySelectorAll('.ashtaklist');
+            ashtaklists.forEach(function(ashtaklist) {
+                if (ashtaklist.style.display === 'none' || ashtaklist.style.display === '') {
+                  ashtaklist.style.display = 'block';
+                } else {
+                  ashtaklist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('ashtakbutton').addEventListener('click', function() {
+          toggleAshtaklist();
+        });
+   // Function to close the side navbar
+   //function closeNav() {
+           // document.getElementById('side-navbar').style.width = '0';
+       // }
+
+//  -----------------------------------------------dindoriaarti--------------------------------------------------
+
+function toggledindoriaartilist() {
+            var dindoriaartilist = document.querySelectorAll('.dindoriaartilist');
+            dindoriaartilist.forEach(function(dindoriaartilist) {
+                if (dindoriaartilist.style.display === 'none' || dindoriaartilist.style.display === '') {
+                  dindoriaartilist.style.display = 'block';
+                } else {
+                  dindoriaartilist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('dindoriaartibutton').addEventListener('click', function() {
+          toggledindoriaartilist();
+        });
+
+
+        //  -----------------------------------------------Vratlist--------------------------------------------------
+
+function toggleVratlist() {
+            var Vratlist = document.querySelectorAll('.Vratlist');
+            Vratlist.forEach(function(Vratlist) {
+                if (Vratlist.style.display === 'none' || Vratlist.style.display === '') {
+                  Vratlist.style.display = 'block';
+                } else {
+                  Vratlist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('Vratbutton').addEventListener('click', function() {
+          toggleVratlist();
+        });
+
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+</body>
+</html>.

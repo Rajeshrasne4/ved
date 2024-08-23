@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>शिवोपासन मन्त्राः </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Tiro+Devanagari+Marathi&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+
+/>
+   <style>
+       
+       *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+    
+        
+     body{
+      font-size: 1rem;
+        background-color: #FFF3E7;
+        font-family: 'Times New Roman', Times, serif;
+     }
+
+
+
+
+/* Responsive styles for large screens */
+@media (min-width: 992px) {
+  body{
+    font-size: 1rem;/* Example maximum height */
+  }
+}
+
+/* Responsive styles for medium screens */
+@media (max-width: 991px) {
+  body {
+    font-size: 1rem;/* Example maximum height */
+  }
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 1rem; /* Example maximum height */
+  }
+}
+
+/* Responsive styles for extra small screens (phones) */
+@media (max-width: 576px) {
+  body {
+    font-size: 1rem; /* Example maximum height */
+  }
+}
+
+
+
+.sukta{
+    margin: 2%;
+   
+   line-height: 200%;
+   font-weight:500;
+   
+   
+   
+}
+.sukta1{
+    border:1px solid black;
+   margin: 2%;
+   text-align: center;
+   line-height: 200%;
+   font-weight:500;
+}
+
+#heading-container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it's above other content */
+ 
+}
+
+#background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(Images/grunge-paper-background.jpg);
+  /* opacity: 0.9; Adjust the value between 0 and 1 */
+  z-index: -1;
+  
+}
+
+#heading {
+  position: relative;
+  left: 1%;
+  z-index: 1;
+  /* Additional styling for your text */
+  padding: 20px;
+  color: white; /* Text color, adjust as needed */
+  text-align: center;
+  /* font-size: 5vw; */
+  font-size: 5vw;
+
+}
+/* ------------------------------------------Nav bar----------------------------------------- */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ecdcdc;
+    overflow-x: hidden;
+    transition: 0.5s;
+    /* padding-top: 60px; */
+    z-index: 1002;
+    display: flex;
+    flex-direction:column;
+   align-items: center;
+   
+}
+
+/* Links in the navbar */
+.sidenav a {
+    /* padding: 8px 8px 8px 32px; */
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    text-shadow: 1px 1px 2px white,
+     2px 2px 4px white;
+    
+}
+
+/* Close button */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.menu-btn {
+  font-size: 3.4VW;
+  text-align: center;
+  padding: 0%;
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  left: 1%;
+  z-index: 1001; 
+    animation: blink 1s infinite alternate; 
+   width: 15%;
+   height: 52%;
+   background-color: tomato;
+   color: white;
+   text-shadow: 1px 1px 2px black,
+   2px 2px 4px rgb(12, 10, 10);
+   border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-btn:hover {
+  color: #fff; /* Changing color on hover */
+  transform: translateY(-2px) translateZ(0);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+
+/* --------------------------------------Nav bar button--------------------------------------------- */
+
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 3.5rem;
+  justify-content: center;
+  line-height: 2px;
+  list-style: none;
+  /* overflow: hidden; */
+  padding-left: 16px;
+  padding-right: 16px;
+  position:relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: calc(1rem + 0.5vw); /* Responsive based on viewport width */
+  width: 100%  ;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count:2;
+  
+  }
+@keyframes example
+{from{opacity:0;}to{opacity:100%}}
+
+
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.atharvashirshalist{
+
+  width: 100%;
+  text-align: center;
+  background-color:#FFA500;
+  
+}
+
+.suktalist{
+  width: 100%;
+  text-align: center;
+  background-color:  #87CEFA;
+  
+}
+.stotralist{
+  width: 100%;
+  text-align: center;
+  background-color: #90EE90;
+}
+
+.ashtaklist{
+  width: 100%;
+  text-align: center;
+  background-color: #ee90ee;
+}
+
+.dindoriaartilist{
+  width: 100%;
+  text-align: center;
+  background-color: #90ee95;
+}
+
+a.atharvashirshalist{
+  display: none;
+ 
+}
+
+a.suktalist{
+  display: none;
+ 
+}
+
+a.stotralist{
+  display: none;
+ 
+}
+
+a.ashtaklist{
+  display: none;
+ 
+}
+
+a.dindoriaartilist{
+  display: none;
+ 
+}
+
+
+#atharvashirshaicon {
+            transform: rotate(90deg);
+        }
+
+.Vratlist{
+  width: 100%;
+  text-align: center;
+  background-color: #bb6d08;
+}
+
+
+a.Vratlist{
+  display: none;
+
+}
+/* ----------------------------------------------------------------------------------- */
+    </style>
+</head>
+<body>
+    <div id="heading-container" >
+
+      <nav id="side-navbar" class="sidenav">
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a><br><br>
+    <h3 style="border: 3px dashed #e6b1b1; width: 100% ;height: fit-content; text-align: center;"><strong>अनुक्रमणिका</strong></h3>
+    <button id="" class="button-30 fade-in" role="button" ><a  href="index.html" onclick="closeNav()"><h3>॥ प्रस्तावना ॥<span id="icon">&#10147;</span></a></h3></button>
+    <button id="atharvashirshabutton" class="button-30 fade-in" role="button" ><h3>॥ अथर्वशीर्ष ॥<span id="atharvashirshaicon">&#10147;</span></h3></button>  
+                      <a class="atharvashirshalist" href="Ganpati_Atharvashirha.html" onclick="closeNav()">॥ गणपति अथर्वशीर्ष॥</a>
+    <button id="suktabutton" class="button-30 fade-in" role="button"><h3>॥ सूक्त ॥<span id="icon">&#10147;</span></h3></button>
+                     <a class="suktalist" href="Shrisukta.html" onclick="closeNav()">॥ श्रीसूक्त॥</a>
+                    <a class="suktalist"href="#shreesukta" onclick="closeNav()">॥ पुरुष सूक्त॥</a>
+    <button id="stotrabutton" class="button-30 fade-in" role="button"><h3>॥ स्तोत्रम् ॥ <span id="icon">&#10147;</span></h3></button>
+                    <a class="stotralist"href="Ganpatistotra.html" onclick="closeNav()">॥ गणपती स्तोत्र ॥</a>              
+                    <a class="stotralist"href="Ramrakshastotra.html" onclick="closeNav()">॥ श्रीरामरक्षास्तोत्रम् ॥</a>
+    <button id="ashtakbutton" class="button-30 fade-in" role="button"><h3>॥ अष्टक ॥<span id="icon">&#10147;</span></h3></button>
+                   <a class="ashtaklist"href="Kalbhairavashtak.html" onclick="closeNav()">॥ कालभैरव अष्टक ॥</a>
+    <button id="dindoriaartibutton" class="button-30 fade-in" role="button" style="font-size:5px;"><h3>॥ दिंडोरी प्रणित आरती ॥<span id="icon">&#10147;</span></h3></button>
+                    <a class="dindoriaartilist" href="Dindoribhupali.html" onclick="closeNav()">॥ भुपाळी ॥</a>
+                    <a class="dindoriaartilist" href="Dindori10.30.html" onclick="closeNav()">॥ 10:30 ची स्वामी नैवेद्य आरती ॥</a>
+                    <a class="dindoriaartilist" href="Dindori06.30.html" onclick="closeNav()">॥ 06:30 ची स्वामी नैवेद्य आरती ॥</a>
+    <button id="Vratbutton" class="button-30 fade-in" role="button" style="font-size:5px;"><h3>॥ व्रतवैकल्य ॥<span id="icon">&#10147;</span></h3></button>
+                    <a class="Vratlist" href="" onclick="closeNav()">॥ गणेश चतुर्थी पूजा विधि ॥</a>
+                    <a class="Vratlist" href="Satynarayanpuja.html" onclick="closeNav()">॥ सत्यनारायण पूजा विधि॥</a>
+    </nav>
+    
+
+
+
+    <!-- Button to open navbar -->
+    <button id="menu" class="menu-btn btn btn-primary btn-sm" onclick="openNav()">॥ सूची ॥</button>
+    <!-- <button id="menu" class="menu-btn btn btn-primary" onclick="openNav()">&#9776;</button> -->
+
+      <div id="background-image"></div>
+        <h1 id="heading" class="animate__animated animate__zoomIn">राजेश रमेश रासने वेद प्रचार-प्रसार </h1><img src="https://onedrive.live.com/embed?resid=5C24657F4B8B741C%212750&authkey=%21AGpjUy8HSTrbFAQ" class="img-fluid" style="position: absolute;left: 86vw; top: 3vw;"></div></body>
+    </div>
+    
+    
+
+
+     <div class="sukta1" >
+    
+      <h3 class="sukta">
+
+        <h2 id="shreesukta" >श्रीसूक्त</h2><br>
+         
+        <strong>हिरण्यवर्णामिति पञदशर्चस्य सूक्तस्य आनन्दकर्दमचिक्लीतेन्दिरासुता ऋषयः <br>
+          श्रीर्देवता आद्यास्तिस्रोऽनुष्टुभः<br> 
+          चतुर्थी बृहती <br>
+          पञ्चमीषष्ठयौ <br>
+          त्रिष्टुभौ ततोऽष्टाऽवनुष्टुभः <br>
+          अन्त्या प्रस्तारपङ्क्तिः <br></strong>
+          <strong>श्री महाकाली महालक्ष्मी महा सरस्वती </strong>स्वरुप त्रिगुणा त्रैगुणी श्री कुलदेवी कृपा प्रसाद सिद्दर्थ्य श्री सुक्त जपें च विनीयोगः<br>
+          अर्थ-:हिरण्यवर्णाम् या पंधरा ऋचांच्या सूक्ताचे (कवी) इंदिरापुत्र आनंद, कर्दम, चिक्लीत हे ऋषी, लक्ष्मी देवता असून सुरुवातीच्या तीन ऋचा अनुष्टुभ, चौथी बृहती, पाचवी व सहावी त्रिष्टुभ  नंतरच्या आठ अनुष्टुभ व शेवटची प्रस्तार छंदात आहेत.<br><br>
+  
+  
+       <span class="animate__animated animate__fadeInDownBig animate__delay-1s" > न्यास -:न्यास म्हणजे मंत्र म्हणुन शरीराच्या प्रत्येक अवयवावर देवतेचे स्मरण करुन त्या त्या अवयवावर स्पर्श करणे.व शरीर मंत्राने शुध्द करणे.<br>
+        <strong>न्यास विना जपं प्राहुरासुरं विफलं बुधाः | न्यासा तदात्मको भूत्वा देवो भूत्वा तु तँ यजेत ||</strong>म्हणजे न्यासा विना केलेले अनुष्ठान असुरा समान मानले जाते व त्याचे फळ ही मिळत नाही<br>
+        न्यासांचे अंगन्यास-करन्यास-षडङ्गन्यास-एकादशन्यास-मूलमंत्रन्यास-चक्रन्यास-मातृकान्यास-तत्वन्यास-देवतान्यास-मन्त्रन्यास पीठ्न्यास-ऋष्यादिन्यास-कर न्यास-हृदयादि न्यास असे प्रकार आहे. श्री सुक्त विधान न्यास पुढील प्रमाणे आहे.<br><br></span>
+        <span class="animate__animated animate__fadeInDownBig animate__delay-1s" > अथ श्री सुक्तस्य आनंद,कर्दम,चिक्लित ॠषीः<br>
+         अग्नी देवता,<br>
+         हिर॑ण्यवर्णां॒ बिजम्,<br>
+         तां म॒ आव॑हेती शक्तीः,<br>
+         की॒र्तिमृ॑द्धिं किलकम<br>
+         <strong>श्री महाकाली महालक्ष्मी महा सरस्वती </strong>स्वरुप त्रिगुणा त्रैगुणी श्री कुलदेवी कृपा प्रसाद सिद्दर्थ्य श्री सुक्त जपें च विनीयोगः<br><br></span>
+         ऋष्यादि-न्यासः-<br>
+         श्री-आनन्द-कर्दम-चिक्लीत-इन्दिरा-सुतेभ्यः ऋषिभ्यो नमः <strong>-:शिरसि </strong>।<br>
+         अनुष्टुप्-बृहती-त्रिष्टुप्-प्रस्तार-पंक्ति-छन्दोभ्यो नमः ।<strong>-:मुखे</strong><br>
+         श्रीरग्निश्च देवताभ्यां नमः <strong>-:हृदि </strong><br>
+          । हिरण्य-वर्णां बीजाय नमः<strong>-: गुह्ये </strong>।<br>
+         “तां म आवह जातवेद” शक्तये नमः <strong>पादयो</strong><br>
+         कीर्तिसमृद्धिं ददातु मे” कीलकाय नमः <strong>-:नाभौ </strong>।<br>
+         <strong>श्री महाकाली महालक्ष्मी महा सरस्वती</strong>स्वरुप त्रिगुणा त्रैगुणी श्री कुलदेवी कृपा प्रसाद सिद्दर्थ्य श्री सुक्त जपें च विनीयोगः<br> नमः सर्वांगे ।<br><br>
+         अंग-न्यासः-<br>
+         श्री सुक्ताच्या एक एक ॠचेच्या ऊच्चार करत ऊजव्या हाताने आपल्या डोके,कान,नासिका,मुख,कंठ,दोन्ही बाहु,ह्रदय,नाभि,लिंग,पाय.ऊरु,जानु यांना स्पर्श करणे<br>
+  ॐ हिरण्य-वर्णां हरिणीं, सुवर्ण-रजत-स्त्रजाम् । चन्द्रां हिरण्यमयीं लक्ष्मीं, जातवेदो म आवह ।।  <strong>-:शिरसि</strong><br>
+  ॐ तां म आवह जात-वेदो, लक्ष्मीमनप-गामिनीम् । यस्यां हिरण्यं विन्देयं, गामश्वं पुरूषानहम् ।। - <strong>-:नेत्रयोः</strong><br>
+  ॐ अश्वपूर्वां रथ-मध्यां, हस्ति-नाद-प्रबोधिनीम् । श्रियं देवीमुपह्वये, श्रीर्मा देवी जुषताम् ।। <strong>-:कर्णयोः</strong><br>
+   ॐ कांसोऽस्मि तां हिरण्य-प्राकारामार्द्रां ज्वलन्तीं तृप्तां तर्पयन्तीं । पद्मे स्थितां पद्म-वर्णां तामिहोपह्वये श्रियम् ।।<strong>-:नासिकायाम्</strong><br>
+   ॐ चन्द्रां प्रभासां यशसा ज्वलन्तीं श्रियं लोके देव-जुष्टामुदाराम् । तां पद्म-नेमिं शरणमहं प्रपद्ये अलक्ष्मीर्मे नश्यतां त्वां वृणोमि ।। <strong>-:मुखे</strong><br>
+   ॐ आदित्य-वर्णे तपसोऽधिजातो वनस्पतिस्तव वृक्षोऽक्ष बिल्वः । तस्य फलानि तपसा नुदन्तु मायान्तरायाश्च बाह्या अलक्ष्मीः ।। <strong>-:कण्ठे</strong><br>
+   ॐ उपैतु मां दैव-सखः, कीर्तिश्च मणिना सह । प्रादुर्भूतोऽस्मि राष्ट्रेऽस्मिन्, कीर्तिं वृद्धिं ददातु मे ।। <strong>-:बाह्वोः</strong><br>
+   ॐ क्षुत्-पिपासाऽमला ज्येष्ठा, अलक्ष्मीर्नाशयाम्यहम् । अभूतिमसमृद्धिं च, सर्वान् निर्णुद मे गृहात् ।। <strong>-:हृदये</strong><br>
+  ॐ गन्ध-द्वारां दुराधर्षां, नित्य-पुष्टां करीषिणीम् । ईश्वरीं सर्व-भूतानां, तामिहोपह्वये श्रियम् ।। <strong>-:नाभौ</strong><br>
+   ॐ मनसः काममाकूतिं, वाचः सत्यमशीमहि । पशूनां रूपमन्नस्य, मयि श्रीः श्रयतां यशः ।। <strong>-:लिंगे</strong><br>
+   ॐ कर्दमेन प्रजा-भूता, मयि सम्भव-कर्दम । श्रियं वासय मे कुले, मातरं पद्म-मालिनीम् ।। <strong>-:पायौ</strong><br>
+   ॐ आर्द्रां पुष्करिणीं पुष्टिं, पिंगलां पद्म-मालिनीम् । चन्द्रां हिरण्मयीं लक्ष्मीं, जातवेदो म आवह ।। <strong>-:जान्वोः</strong><br>
+   ॐ आपः सृजन्तु स्निग्धानि, चिक्लीत वस मे गृहे । नि च देवीं मातरं श्रियं वासय मे कुले ।। <strong>-:उर्वोः</strong><br>
+   ॐ आर्द्रां यः करिणीं यष्टिं, सुवर्णां हेम-मालिनीम् । सूर्यां हिरण्मयीं लक्ष्मीं, जातवेदो ममावह ।। <strong>-:जंघयोः</strong><br>
+   ॐ तां म आवह जात-वेदो लक्ष्मीमनप-गामिनीम् । यस्यां हिरण्यं प्रभूतं गावो दास्योऽश्वान् विन्देयं पुरूषानहम् ।। <strong>-:पादयोः</strong><br>
+         <strong>श्री महाकाली महालक्ष्मी महा सरस्वती </strong>स्वरुप त्रिगुणा त्रैगुणी श्री कुलदेवी कृपा प्रसाद सिद्दर्थ्य श्री सुक्त जपें च विनीयोगः<br> नमः सर्वांगे ।<br><br>
+         
+       <strong>ध्यान<br>
+          अरुण कमल संस्था तद्रज: पुंजवर्णा <br>
+           कर कमल धृतेष्टा भीती युग्माम्बुजा च !<br>
+          मणि मुकट विचित्रालंकृता कल्प्जालै:<br>
+           सकल भुवन माता संततं श्रीं श्रियै नम:</strong><br>
+           !!ॐ श्रीं ह्रीं क्लीं श्री महालक्ष्म्ये नम:!!<br><br>
+         <span class="sukta3"> 
+  
+  
+    <strong>ॐ ॥ हिर॑ण्यवर्णां॒ हरि॑णीं सु॒वर्ण॑रज॒तस्र॑जाम् ।<br>
+    च॒न्द्रां हि॒रण्म॑यीं ल॒क्ष्मीं जात॑वेदो म॒ आव॑ह ॥ १॥</strong><br>
+    अर्थ-:हे अग्ने (जातवेद),सोन्यासमान वर्ण असणा-या, सर्व पातकांचे हरण करणा-या (हरिणीसमान सुंदर,चपळ असणा-या), <br>
+    सोन्या-चांदीच्या माळा धारण करणा-या, चंद्राप्रमाणे (शीतल) असलेल्या सुवर्णमय लक्ष्मीला माझ्यासाठी आवाहन कर.<br><br>
+  
+  
+  <STrong>तां म॒ आव॑ह॒ जात॑वेदो ल॒क्ष्मीमन॑पगा॒मिनी᳚म् ।<br>
+  यस्यां॒ हिर॑ण्यं वि॒न्देयं॒ गामश्वं॒ पुरु॑षान॒हम् ॥ २॥</STrong><br>
+  अर्थ-:हे अग्ने, त्या कधीही दूर न जाणा-या (अविनाशी) लक्ष्मीला माझ्यासाठी आवाहन कर<br>
+  जिच्याकडून मला धन, गाय, घोडा तसेच पुरुष (नातलग,मित्र) मिळावेत.<br><br>
+  
+  
+  <strong>अ॒श्व॒पू॒र्वां र॑थम॒ध्यां ह॒स्तिना᳚दप्र॒बोधि॑नीम् ।<br>
+  श्रियं॑ दे॒वीमुप॑ह्वये॒ श्रीर्मा᳚दे॒वीर्जु॑षताम् ॥ ३॥</strong><br>
+  अर्थ-:जिच्या मिरवणुकीत सुरुवातीला घोडे, मध्यभागी रथ आहेत (जी रथात बसलेली आहे), जेथे हत्ती ललकारी देत आहेत<br>
+  अशा लक्ष्मीला मी आमंत्रित करतो. ती देवी मजवर कृपा करो.<br><br>
+  
+  
+  <strong>कां॒ सो॒स्मि॒तां हिर॑ण्यप्रा॒कारा॑मा॒र्द्रां ज्वल॑न्तीं तृ॒प्तां त॒र्पय॑न्तीम् ।<br>
+  प॒द्मे॒ स्थि॒तां प॒द्मव॑र्णां॒ तामि॒होप॑ह्वये॒ श्रियम् ॥ ४॥</strong><br>
+  अर्थ-:जिचे हास्य चमकदार आहे, जी सुवर्णमखरात विराजमान आहे, जी मायाळू आहे, तेजस्वी आहे, स्वतः तृप्त असून इतरांनाही तृप्त करते<br>
+  कमळात स्थानापन्न झाली असून तिची कांती कमळाप्रमाणे आहे, अशा लक्ष्मीला मी येथे आमंत्रित करतो. ती देवी मजवर कृपा करो.<br><br>
+  
+  
+  <strong>च॒न्द्रां प्र॑भा॒सां य॒शसा॒ ज्वल॑न्तीं॒ श्रियं॑ लो॒के दे॒वजु॑ष्टामुदा॒राम् ।<br>
+  तां प॒द्मिनी॑मीं॒ शर॑णम॒हं प्रप॑द्येऽल॒क्ष्मीर्मे॑ नश्यतां॒ त्वां वृ॑णे ॥ ५॥</strong><br>
+  अर्थ-:चंद्रासमान आभा असलेली, जिचे यश देदीप्यमान आहे, तिन्ही लोकात देव जिची पूजा करतात, जी उदार आहे, अशा या `ई’ नामक लक्ष्मीला<br>
+  मी शरण जातो. माझे दारिद्र्य नष्ट होवो अशी तुला प्रार्थना करतो.<br><br>
+  
+  
+  <strong>आ॒दि॒त्यव॑र्णे॒ तप॒सोऽधि॑जा॒तो वन॒स्पति॒स्तव॑ वृ॒क्षोऽथ बि॒ल्वः ।<br>
+  तस्य॒ फला᳚नि॒ तप॒सा नु॑दन्तु मा॒यान्त॑रा॒याश्च॑ बा॒ह्या अ॑ल॒क्ष्मीः ॥ ६॥</strong><br>
+  अर्थ-:हे सूर्याप्रमाणे कांती असलेल्या देवी, तुझ्या तपश्चर्येतून निर्माण झाला बेलाचा वृक्ष<br>
+  त्याची फळे तपाच्या बलाने (माझ्या) अंतरीचे अज्ञान व बाहेरचे दैन्य दूर करोत.<br><br>
+  
+  
+  <strong>उपै॑तु॒ मां दे॑वस॒खः की॒र्तिश्च॒ मणि॑ना स॒ह ।<br>
+  प्रा॒दु॒र्भू॒तोऽस्मि॑ राष्ट्रे॒ऽस्मिन् की॒र्तिमृ॑द्धिं द॒दातु॑ मे ॥ ७॥</strong><br>
+  अर्थ-:देवांचा मित्र (कुबेर) कीर्ती आणि जडजवाहिर यांचेसह मजकडे येवो.<br>
+  मी या देशात उत्पन्न झालो आहे. तो मला कीर्ती आणि उत्कर्ष देवो.<br><br>
+  
+  <strong>क्षुत्पि॑पा॒साम॑लां ज्ये॒ष्ठाम॑ल॒क्ष्मीं ना॑शया॒म्यहम् ।<br>
+  अभू॑ति॒मस॑मृद्धिं॒ च सर्वां॒ निर्णु॑द मे॒ गृहा᳚त् ॥ ८॥</strong><br>
+  अर्थ-:भूक, तहान, अस्व्च्छता(रूपी) थोरल्या अलक्ष्मीचा मी नाश करतो.<br>
+  अपयश या सर्वांना माझ्या घरातून दूर हाकलून दे.<br><br>
+  
+  <strong>गं॒ध॒द्वा॒रां दु॑राध॒र्षां॒ नि॒त्यपु॑ष्टां करी॒षिणी᳚म् ।<br>
+  ई॒श्वरी॑ꣳ सर्व॑भूता॒नां॒ तामि॒होप॑ह्वये॒ श्रियम् ॥ ९॥</strong><br>
+  अर्थ-:जी सुवासांचे प्रवेशद्वार आहे, जिच्यावर आक्रमण दुरापास्त आहे, जेथे नित्य समृद्धी नांदते आणि जी संपन्नेतेचे अवशेष सोडते.<br>
+  अशा त्या सर्व प्राणिमात्रांच्या स्वामिनी लक्ष्मीला मी येथे आमंत्रित करतो.<br><br>
+  
+  <strong>मन॑सः॒ काम॒माकू᳚तिं वा॒चः स॒त्यम॑शीमहि ।<br>
+  प॒शू॒नां रू॒पमन्न॑स्य॒ मयि॒ श्रीः श्र॑यतां॒ यशः॑ ॥ १०॥</strong><br>
+  अर्थ-:(माझ्या) मनीच्या इच्छा-आकांक्षांची पूर्ती, वाणीचा सच्चेपणा, पशू, सुंदर रूप आणि अन्न जिच्यामुळे मिळते.<br>
+  ती लक्ष्मी मला यश देवो.<br><br>
+  
+  <strong>क॒र्दमे॑न प्र॑जाभू॒ता॒ म॒यि॒ सम्भ॑व क॒र्दम ।<br>
+  श्रियं॑ वा॒सय॑ मे कु॒ले मा॒तरं॑ पद्म॒मालि॑नीम् ॥ ११॥</strong><br>
+  अर्थ-:जनांसाठी चिखल (कर्दम) हाच आधारभूत आहे. हे कर्दमा (इंदिरेचा पुत्र).<br>
+  , तू मजबरोबर रहा. माता लक्ष्मीला माझ्या कुळात स्थापित कर.<br><br>
+  
+  <strong>आपः॑ सृ॒जन्तु॑ स्नि॒ग्धा॒नि॒ चि॒क्ली॒त व॑स मे॒ गृहे ।<br>
+  नि च॑ दे॒वीं मा॒तरं॒ श्रियं॑ वा॒सय॑ मे कु॒ले ॥ १२॥</strong><br>
+  अर्थ-:जलातून ओलसर (चिक्लीत) लोभसता निर्माण होऊ दे. हे चिक्लीता माझ्या घरात निवास कर.<br>
+  , (आणि तुझ्याबरोबर) माता लक्ष्मीलाही माझ्या कुलात स्थापन कर.<br><br>
+  
+  <strong>आ॒र्द्रां यः॒ करि॑णीं य॒ष्टिं॒ सु॒व॒र्णां हे॑ममा॒लिनीम् ।<br>
+    सू॒र्यां हि॒रण्म॑यीं ल॒क्ष्मीं॒ जात॑वेदो म॒ आवह ॥१३॥</strong><br>
+    अर्थ-:हे अग्ने, जी आर्द्र (जगताच्या निर्माणाला) आधार देणारी आहे, कमळांचा हार घातलेल्या सूर्याप्रमाणे तेजस्वी आहे,<br>
+    अशा सुवर्णमय लक्ष्मीला तू मजसाठी आवाहन कर.<br><br>
+  
+  <strong>आ॒र्द्रां पु॒ष्करि॑णीं पु॒ष्टिं॒ पि॒ङ्ग॒लां प॑द्ममा॒लिनीम् ।<br>
+  च॒न्द्रां हि॒रण्म॑यीं ल॒क्ष्मीं जात॑वेदो म॒ आव॑ह ॥१४॥</strong><br>
+  अर्थ-:हे अग्ने, कमळांच्या तलावाप्रमाणे रसपूर्ण असणा-या, (जनांचे) पोषण करणा-या, सोनेरी वर्णाच्या, कमळांचा हार घातलेल्या<br>
+  चंद्रासारख्या (शीतल), सुवर्णमय लक्ष्मीला तू मजसाठी आवाहन कर.<br><br>
+  
+  
+  <strong>तां म॒ आव॑ह॒ जात॑वेदो ल॒क्ष्मीमन॑पगा॒मिनी᳚म् ।<br>
+  यस्यां॒ हि॑रण्यं॒ प्रभू॑तं॒ गावो॑ दा॒स्योऽश्वा᳚न्वि॒न्देयं॒ पुरु॑षान॒हम् ॥ १५॥</strong><br>
+  अर्थ-:हे अग्ने, दूर न जाणा-या (मजसवे कायम निवास करणा-या), जिच्यात (जिच्यामुळे) मला भरपूर<br>
+  धन, गाई, सेवक, घोडे मिळतील अशा लक्ष्मीला तू मजसाठी आवाहन कर.<br><br>
+  
+  <strong>यः शुचिः॒ प्रय॑तो भू॒त्वा जु॒हुया᳚दाज्य॒ मन्व॑हम् ।<br>
+  श्रियः॑ प॒ञ्चद॑शर्चं॒ च श्री॒कामः॑ सत॒तं ज॑पेत् ॥ १६॥</strong><br>
+  अर्थ-:जो (शरीराने) पवित्र व भक्तीने परिपूर्ण असलेला (साधक) दररोज तुपाने हवन करील, (त्याचे मनोरथ पूर्ण होतील).<br>
+  लक्ष्मीची आकांक्षा असणा-याने या सूक्ताची पंधरा कडवी नित्य पठन करावीत.<br><br>
+  
+                    <strong>फलश्रुति</strong><br>
+  <strong>प॒द्मा॒न॒ने प॑द्म ऊ॒रू॒ प॒द्माक्षी॑ पद्म॒सम्भ॑वे ।<br>
+  त्वं मां᳚ भ॒जस्व॑ प॒द्मा॒क्षी॒ ये॒न सौ᳚ख्यं ल॒भाम्य॑हम् ॥</strong><br>
+  अर्थ-:कमळाप्रमाणे, (सुहास्य) मुख, (विशाल) नेत्र असलेल्या, कमळात जन्मलेल्या पद्माक्षी, तू माझा स्वीकार कर,<br>
+  जेणेकरून मला सुख मिळेल.<br><br>
+  
+  <strong>अश्व॑दा॒यी गो॑दा॒यी॒ ध॒नदा॑यी म॒हाध॑ने ।<br>
+  धनं मे॒ जुष॑तां दे॒वि॒ स॒र्वका॑मांश्च॒ देहि॑ मे ॥</strong><br>
+  अर्थ-:घोडे, गायी, संपत्ती देणा-या समृद्धीच्या देवते, मजवर धनाची कृपा कर, माझे सर्व मनोरथ पूर्ण कर.<br><br>
+  
+  <strong>पुत्रपौ॒त्र ध॑नं धा॒न्यं ह॒स्त्यश्वा॑दिग॒वे र॑थम् ।<br>
+  प्र॒जा॒नां भ॑वसि मा॒ता आ॒युष्म॑न्तं क॒रोतु॑ माम् ॥</strong><br>
+  अर्थ-:(हे देवी),तू सर्व जनांची माता आहेस. तू मला मुलगे, नातू, संपत्ती, धान्य, हत्ती, घोडे, गायी, रथ दे. मला उदंड आयुष्य दे.<br><br>
+  
+  <strong>धन॑म॒ग्निर्ध॑नं वा॒युर्ध॑नं॒ सूर्यो॑ धनं॒ वसुः॑ ।<br>
+  धन॒मिन्द्रो॒ बृह॒स्पति॒र्वरु॑णं॒ धन॒मश्नु॑ ते ॥</strong><br>
+  अर्थ-:(तुझ्याच कृपेने) अग्नी, वारा, सूर्य, आठ वसू, इंद्र, गुरु (बृहस्पती), वरुण हे धनवान झाले आहेत.<br><br>
+  
+  <strong>वैन॑तेय॒ सोमं॑ पिब॒ सोमं॑ पिबतु वृत्र॒हा ।<br>
+  सोमं॒ धन॑स्य सो॒मिनो॒ मह्यं॒ ददा॑तु सो॒मिनः॑ ॥</strong><br>
+  अर्थ-:हे गरुडा तू सोमरस पी, इंद्रानेही सोमरस प्राशन करावा. सोमरसरूपी धनाच्या धारणकर्त्यांनी मला सोमरस द्यावा.<br><br>
+  
+  <strong>न क्रोधो न च॑ मात्स॒र्यं न॒ लोभो॑ नाशु॒भा म॑तिः ।<br>
+  भव॑न्ति॒ कृत॑पुण्या॒नां भ॒क्तानां श्रीसू᳚क्तं ज॒पेत्स॑दा ॥</strong><br>
+  अर्थ-:पुण्यवान भक्तां(च्या मनात) राग, मत्सर, लोभ, वाईट विचार येत नाहीत. श्रीसूक्ताचे नित्य पठन करावे.<br><br>
+  
+  <strong>वर्ष॑न्तु॒ ते वि॑भाव॒रि॒ दि॒वो अ॑भ्रस्य॒ विद्यु॑तः ।<br>
+  रोह॑न्तु॒ सर्व॑बी॒जा॒न्य॒व ब्र॑ह्म द्वि॒षो ज॑हि ॥</strong><br>
+  अर्थ-:हे विभावरी, मेघातील विजेसारखा तुझ्या तेजाचा वर्षाव होवो. (आकाशीच्या मेघातून विजेच्या कडकडाटासह पाऊस पडो).<br>
+  सर्व बियाणातून कोंब उगवोत. ब्रह्म(ज्ञाना)चा द्वेष करणा-यांपासून संरक्षण कर.<br><br>
+  
+  <Strong>पद्म॑प्रिये पद्मिनि पद्म॒हस्ते पद्मा॑लये पद्मदलाय॑ताक्षि ।<br>
+  विश्व॑प्रिये॒ विष्णु मनो॑ऽनुकू॒ले त्वत्पा॑दप॒द्मं मयि॒ सन्नि॑धत्स्व ॥</Strong><br>
+  अर्थ-:जिला कमळे आवडतात, जिच्या हातात कमळ आहे, कमळ हेच जिचे घर आहे, कमळाच्या पाकळीप्रमाणे जिचे डोळे आहेत,<br> 
+  सर्व विश्वाला (विष्णूला) जी प्रिय आहे, जी श्रीविष्णूंच्या मनाला अनुकूल आहे, अशा श्रीलक्ष्मी तू तुझे चरणकमल मजजवळ ठेव.<br><br>
+  
+  <strong>या सा पद्मा॑सन॒स्था विपुलकटितटी पद्म॒पत्रा॑यता॒क्षी ।<br>
+  गम्भीरा व॑र्तना॒भिः स्तनभर नमिता शुभ्र वस्त्रो॑त्तरी॒या ।<br>
+  लक्ष्मीर्दि॒व्यैर्गजेन्द्रैर्म॒णिगण खचितैस्स्नापिता हे॑मकु॒म्भैः ।<br>
+  नि॒त्यं सा प॑द्मह॒स्ता मम वस॑तु गृ॒हे सर्व॒माङ्गल्य॑युक्ता ॥</strong><br>
+  अर्थ-:जी कमळामध्ये बसली आहे, जिची कंबर आणि वक्ष विशाल आहेत, जिचे नेत्र कमळाच्या पाकळीसारखे दीर्घ आहेत,<br>
+  जिने शुभ्र वस्त्र व शेला पांघरला आहे,<br><br>
+  
+  <Strong>ल॒क्ष्मीं क्षीरसमुद्र राजतनयां श्री॒रंगधामे॑श्वरीम् ।<br>
+  दा॒सीभूतसमस्त देव व॒नितां लो॒कैक॒ दीपां॑कुराम् ।<br>
+  श्रीमन्मन्दकटाक्षलब्ध विभव ब्र॒ह्मेन्द्रगङ्गा॑धराम् ।<br>
+  त्वां त्रै॒लोक्य॒ कुटु॑म्बिनीं स॒रसिजां वन्दे॒ मुकु॑न्दप्रियाम् ॥</Strong><br>
+  अर्थ-:विशाल क्षीरसागराची कन्या असलेल्या, श्रीविष्णूची गृहस्वामिनी असणा-या, सर्व देवांच्या स्त्रिया जिच्या दासी बनल्या आहेत,<br>
+  जी तिहीं लोकातील एकमेव दिव्याच्या ज्योतीसारखी आहे, अशा लक्ष्मीला मी नमन करतो.<br><br>
+  
+  <Strong>श्रीमन्मन्दकटाक्षलब्धविभवब्रह्मेन्द्रगङ्गाधराम् ।
+  त्वां त्रैलोक्यकुटुम्बिनीं सरसिजां वन्दे मुकुन्दप्रियाम् ॥</Strong><br>
+  अर्थ-:जिच्या सुरेख कोमल कटाक्षांतून ब्रह्मा, इंद्र आणि शंकर यांना अनुग्रह प्राप्त झाला, त्या त्रैलोक्य जननी,लक्ष्मीला मी नमन करतो.<br><br>
+  
+  <strong>सि॒द्ध॒ल॒क्ष्मीर्मो॑क्षल॒क्ष्मी॒र्ज॒यल॑क्ष्मीस्स॒रस्व॑ती ।<br>
+  श्रीलक्ष्मीर्व॑रल॒क्ष्मी॒श्च॒ प्र॒सन्ना म॑म स॒र्वदा ॥</strong><br>
+  अर्थ-:सिद्ध लक्ष्मी, मोक्ष लक्ष्मी, जय लक्ष्मी, सरस्वती, श्री लक्ष्मी आणि वर लक्ष्मी मला सदैव प्रसन्न (असोत).<br><br>
+  
+  <strong>वरांकुशौ पाशमभी॑तिमु॒द्रां॒ क॒रैर्वहन्तीं क॑मला॒सनस्थाम् ।<br>
+  बालार्क कोटि प्रति॑भां त्रि॒णे॒त्रां॒ भ॒जेहमाद्यां ज॑गदी॒श्वरीं ताम् ॥</strong><br>
+  अर्थ-:(आपल्या चार हातांनी) वर, अंकुश, पाश (दोरीचा फास), व अभय धारण करणा-या, कमळावर बसलेल्या<br>
+  कोटी उगवत्या सूर्यांचे तेज असणा-या, जगाच्या आद्य (सर्वप्रथम) स्वामिनीला, तुला दुर्गेला मी पूजितो.<br><br>
+  
+  <strong>स॒र्व॒म॒ङ्ग॒लमा॒ङ्गल्ये॑ शि॒वे स॒र्वार्थ॑ साधिके ।<br>
+  शर॑ण्ये त्र्यम्ब॑के दे॒वि॒ ना॒राय॑णि न॒मोऽस्तु॑ ते ॥</strong><br>
+  अर्थ-:जी सर्व शुभ गोष्टीमधील मूर्तिमंत मांगल्य आहे, सर्व अर्थां (पुरुषार्थां)च्या बाबतीत जी कुशल आहे,<br>
+  कल्याणकारी आहे, अशा (सर्वांचे) रक्षण करणा-या पार्वती, नारायणी तुला नमस्कार असो.<br><br>
+  
+  <strong>सरसिजनिलये सरो॑जह॒स्ते धवलतरांशुक गन्धमा᳚ल्यशो॒भे ।<br>
+  भगवति हरिवल्लभे॑ मनो॒ज्ञे त्रिभुवनभूतिकरिप्र॑सीद म॒ह्यम् ॥</strong><br>
+  अर्थ-:कमळात निवास करणा-या, हाती कमळ धरणा-या, पांढरे शुभ्र वस्त्र परिधान करणा-या, सुगंधी माळांनी सजलेल्या,<br>
+  रमणीय, तिहीं लोकांना संपन्नता देणा-या, श्रीविष्णूची प्रिय भार्या असणा-या, देवी मजवर कृपा कर.<br><br>
+  
+  <strong>विष्णु॑प॒त्नीं क्ष॑मां दे॒वीं॒ मा॒धवीं᳚ माध॒वप्रि॑याम् ।<br>
+  विष्णोः᳚ प्रि॒यस॑खींम् दे॒वीं॒ न॒मा॒म्यच्यु॑तव॒ल्लभाम् ॥</strong><br>
+  अर्थ-:श्रीविष्णूची भार्या, पृथ्वी रूपिणी, माधवाची प्रिय पत्नी तुलसी (माधवी), अच्युताची पत्नी अशा देवीला मी नमस्कार करतो.<br><br>
+  
+  <strong>म॒हा॒ल॒क्ष्मी च॑ वि॒द्महे॑ विष्णुप॒त्नी च॑ धीमही ।<br>
+  तन्नो॑ लक्ष्मीः प्रचो॒दया᳚त् ॥</strong><br>
+  अर्थ-:आम्ही महालक्ष्मीला जाणतो, विष्णुपत्नीचे ध्यान करतो. ती लक्ष्मी आम्हाला प्रेरणा देवो.<br><br>
+  
+  <strong>आन॑न्दः॒ कर्द॑मः श्रीदश्चि॒क्लीत॑ इति॒ विश्रु॑ताः ।<br>
+  ऋष॑यः॒ श्रियः॑ पुत्रा॒श्च श्री॒र्दे॑वीर्देवता॒ म॑ताः <br>
+  स्वयम् श्रीरेव देवता ॥</strong><br> 
+  
+  <strong>चन्द्रभां लक्ष्मीमीशानाम् सूर्यभां श्रियमीश्वरीम् ।<br>
+  चन्द्र सूर्यग्नि सर्वाभाम् श्रीमहालक्ष्मीमुपास्महे ॥</strong><br>
+  अर्थ-:चंद्रासारखी देवी लक्ष्मी ही भाग्याची देवी आहे आणि सूर्यदेव ही भाग्याची देवी आहे.<br>
+  चंद्र, सूर्य आणि अग्नी यांसारख्या सर्वांगीण तेजस्वी असलेल्या भाग्यदेवतेची आपण पूजा करतो<br><br>
+  
+  <strong>श्री॒वर्च॑स्य॒मायु॑ष्य॒मारो᳚ग्य॒मावि॑धा॒त् पव॑मानं मही॒यते᳚ ।<br>
+  ध॒नं धा॒न्यं प॒शुं ब॒हुपु॑त्रला॒भं श॒तसं॑वत्स॒रं दी॒र्घमायुः॑ ॥</strong><br>
+  अर्थ-:(श्रीलक्ष्मी कृपेकरून) संपत्ती, बल, आयुष्य, आरोग्य, धन, धान्य, (गाई-बैलादि) पशु, अनेक पुत्र,<br>
+  शंभर वर्षांचे दीर्घायुष्य यांनी आमचे जीवन समृद्ध होवो.<br><br>
+  
+  <strong>ऋणरोगादिदारिद्र्यपा॒पक्षु॑द॒पमृत्य॑वः ।<br>
+  भय॑शो॒कम॑नस्ता॒पा न॒श्यन्तु॑ मम॒ सर्व॑दा ॥</strong><br>
+  अर्थ-:माझे कर्ज, रोगराई इत्यादि दैन्यावस्था, पाप, भूक, अकाली मृत्यु, भीति, दुःख, मनस्ताप सदैव नष्ट होवोत.<br><br>
+  
+  
+  <strong>श्रिये॑ जा॒त श्रिय॒ आनि॑र्याय॒ श्रियं॒ वयो᳚ जनि॒तृभ्यो᳚ दधातु ।<br>
+  श्रियं॒ वसा᳚ना अमृत॒त्वमा᳚य॒न् भजं᳚ति स॒द्यः स॑वि॒ता वि॒दध्यून्॑ ॥<br>
+  श्रिय॑ एवैनं तच्छ्रि॒यामा॑दधा॒ति । स॒न्त॒त॒मृ॒चा व॑षट्कृ॒त्यं<br>
+  सन्ध॑त्तं॒ सन्धी॑यते प्रज॒या प॒शुभिः । य ए॑वं वे॒द ।</strong><br>
+  अर्थ-:चांगले जन्माला येवो, ते आपल्यापर्यंत येऊ दे आणि आपल्याला समृद्धी, चैतन्य आणि दीर्घायुष्य देवो.<br>
+  सत्य, मैत्री आणि करुणेने परिधान केलेले आपल्याला अमरत्व बहाल करतात.<br>
+  दैवी कृपेनेच आपण समृद्धी प्राप्त करू शकतो.<br><br>
+  
+  <strong>ॐ म॒हा॒दे॒व्यै च॑ वि॒द्महे॑ विष्णुप॒त्नी च॑ धीमहि ।<br>
+  तन्नो॑ लक्ष्मीः प्रचो॒दया᳚त् ॥</strong><br>
+  अर्थ-:आम्ही भगवान विष्णूची पत्नी, महान देवी देवी यांचे ध्यान करतो. तेजस्वी देवी लक्ष्मी आम्हाला प्रेरणा आणि मार्गदर्शन करो.<br><br>
+  
+  
+        ॥ ॐ शान्तिः॒ शान्तिः॒ शान्तिः॑ ॥</h3></span>
+
+      </h3>
+
+        
+
+          
+            
+
+
+
+    </div>
+    <script>
+      function openNav() {
+          document.getElementById("side-navbar").style.width = "320px";
+      }
+
+      function closeNav() {
+          document.getElementById("side-navbar").style.width = "0";
+      }
+
+//  -----------------------------------------------Span Symbole down arrow--------------------------------------------------
+   
+
+
+
+
+       //  -----------------------------------------------atharvashirsha--------------------------------------------------
+           // Function to toggle visibility of suktalist elements
+     function toggleAtharvashirshalist() {
+            var atharvashirshalists = document.querySelectorAll('.atharvashirshalist');
+            atharvashirshalists.forEach(function(atharvashirshalist) {
+                if (atharvashirshalist.style.display === 'none' || atharvashirshalist.style.display === '') {
+                  atharvashirshalist.style.display = 'block';
+                } else {
+                  atharvashirshalist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('atharvashirshabutton').addEventListener('click', function() {
+          toggleAtharvashirshalist();
+        });
+
+        // Function to close the side navbar
+        //function closeNav() {
+            //document.getElementById('side-navbar').style.width = '0';
+        //}
+
+   //  -----------------------------------------------Sukta--------------------------------------------------
+     // Function to toggle visibility of suktalist elements
+     function toggleSuktalist() {
+            var suktalists = document.querySelectorAll('.suktalist');
+            suktalists.forEach(function(suktalist) {
+                if (suktalist.style.display === 'none' || suktalist.style.display === '') {
+                    suktalist.style.display = 'block';
+                } else {
+                    suktalist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('suktabutton').addEventListener('click', function() {
+            toggleSuktalist();
+        });
+
+        // Function to close the side navbar
+        //function closeNav() {
+           // document.getElementById('side-navbar').style.width = '0';
+        //}
+//  -----------------------------------------------Stotra--------------------------------------------------
+function toggleStotralist() {
+            var stotralists = document.querySelectorAll('.stotralist');
+            stotralists.forEach(function(stotralist) {
+                if (stotralist.style.display === 'none' || stotralist.style.display === '') {
+                  stotralist.style.display = 'block';
+                } else {
+                  stotralist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('stotrabutton').addEventListener('click', function() {
+          toggleStotralist();
+        });
+   // Function to close the side navbar
+   //function closeNav() {
+           // document.getElementById('side-navbar').style.width = '0';
+       // }
+
+//  -----------------------------------------------Ashtak--------------------------------------------------
+
+function toggleAshtaklist() {
+            var ashtaklists = document.querySelectorAll('.ashtaklist');
+            ashtaklists.forEach(function(ashtaklist) {
+                if (ashtaklist.style.display === 'none' || ashtaklist.style.display === '') {
+                  ashtaklist.style.display = 'block';
+                } else {
+                  ashtaklist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('ashtakbutton').addEventListener('click', function() {
+          toggleAshtaklist();
+        });
+   // Function to close the side navbar
+   //function closeNav() {
+           // document.getElementById('side-navbar').style.width = '0';
+       // }
+
+//  -----------------------------------------------dindoriaarti--------------------------------------------------
+
+function toggledindoriaartilist() {
+            var dindoriaartilist = document.querySelectorAll('.dindoriaartilist');
+            dindoriaartilist.forEach(function(dindoriaartilist) {
+                if (dindoriaartilist.style.display === 'none' || dindoriaartilist.style.display === '') {
+                  dindoriaartilist.style.display = 'block';
+                } else {
+                  dindoriaartilist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('dindoriaartibutton').addEventListener('click', function() {
+          toggledindoriaartilist();
+        });
+
+
+        //  -----------------------------------------------Vratlist--------------------------------------------------
+
+function toggleVratlist() {
+            var Vratlist = document.querySelectorAll('.Vratlist');
+            Vratlist.forEach(function(Vratlist) {
+                if (Vratlist.style.display === 'none' || Vratlist.style.display === '') {
+                  Vratlist.style.display = 'block';
+                } else {
+                  Vratlist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('Vratbutton').addEventListener('click', function() {
+          toggleVratlist();
+        });
+
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+</body>
+</html>.
