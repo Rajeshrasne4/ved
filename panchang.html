@@ -28,63 +28,43 @@
     </div>
 
     <script>
- async function fetchPanchangData() {
-    const apiUrl = 'https://json.freeastrologyapi.com/tithi-durations'; // Append the specific endpoint
-    const apiKey = 'cGLNWvGs6r7a34yKVJEQS9IFD374XDk71YrxUoxL'; // Replace with your actual API key
-    
-    const currentDate = new Date();
-    const day = currentDate.getDate();
-    const month = currentDate.getMonth() + 1; // JavaScript months are 0-indexed
-    const year = currentDate.getFullYear();
-
-    const requestBody = {
-        day: day,
-        month: month,
-        year: year,
-        hour: 12,
-        min: 0,
-        lat: 18.975, // Example latitude (Mumbai)
-        lon: 72.825833, // Example longitude (Mumbai)
-        tzone: 5.5 // India Standard Time
-    };
-
-    try {
-        const response = await fetch(apiUrl, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-                'x-api-key': apiKey
-            },
-            body: JSON.stringify(requestBody)
-        });
-        
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
+fetch('https://cors-anywhere.herokuapp.com/https://json.freeastrologyapi.com/tithi-durations', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': 'cGLNWvGs6r7a34yKVJEQS9IFD374XDk71YrxUoxL'
+    },
+    body: JSON.stringify({
+        "year": 2024,
+        "month": 8,
+        "date": 25,
+        "hours": 6,
+        "minutes": 0,
+        "seconds": 0,
+        "latitude": 17.38333,
+        "longitude": 78.4666,
+        "timezone": 5.5,
+        "config": {
+            "observation_point": "topocentric",
+            "ayanamsha": "lahiri"
         }
-        
-        const data = await response.json();
-        displayPanchangData(data);
-    } catch (error) {
-        console.error('Error fetching panchang data:', error);
-        document.getElementById('panchang-data').innerHTML = '<p>Error loading panchang data. Please try again later.</p>';
-    }
-}
-
-function displayPanchangData(data) {
-    const panchangElement = document.getElementById('panchang-data');
-    panchangElement.innerHTML = `
-        <h2>Panchang for ${data.day}/${data.month}/${data.year}</h2>
-        <p>Tithi: ${data.tithi.details.tithi_name}</p>
-        <p>Nakshatra: ${data.nakshatra.details.nak_name}</p>
-        <p>Yoga: ${data.yoga.details.yoga_name}</p>
-        <p>Karana: ${data.karana.details.karana_name}</p>
-        <p>Sunrise: ${data.sunrise}</p>
-        <p>Sunset: ${data.sunset}</p>
+    })
+})
+.then(response => response.json())
+.then(data => {
+    document.getElementById('panchang').innerHTML = `
+        <h2>Tithi: ${data.name}</h2>
+        <p>Number: ${data.number}</p>
+        <p>Paksha: ${data.paksha}</p>
+        <p>Completes At: ${new Date(data.completes_at).toLocaleString()}</p>
+        <p>Left Percentage: ${data.left_precentage}%</p>
     `;
-}
+})
+.catch(error => {
+    document.getElementById('panchang').textContent = 'Error loading Panchang data.';
+    console.error('Error:', error);
+});
 
-        // Fetch panchang data when the page loads
-        fetchPanchangData();
     </script>
 </body>
 </html>
