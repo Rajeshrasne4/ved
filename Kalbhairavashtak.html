@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>शिवोपासन मन्त्राः </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Tiro+Devanagari+Marathi&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+
+/>
+   <style>
+       
+       *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+    
+        
+     body{
+      font-size: 1rem;
+        background-color: #FFF3E7;
+        font-family: 'Times New Roman', Times, serif;
+     /* ---------Below CSS restrict user from Selection----------- */
+     user-select: none;
+        -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     }
+
+    /* ---------Below CSS for restrict user for print ----------- */
+    @media print {
+  body {
+    display: none;
+  }
+}
+
+
+
+/* Responsive styles for large screens */
+@media (min-width: 992px) {
+  body{
+    font-size: 1rem;/* Example maximum height */
+  }
+}
+
+/* Responsive styles for medium screens */
+@media (max-width: 991px) {
+  body {
+    font-size: 1rem;/* Example maximum height */
+  }
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 1rem; /* Example maximum height */
+  }
+}
+
+/* Responsive styles for extra small screens (phones) */
+@media (max-width: 576px) {
+  body {
+    font-size: 1rem; /* Example maximum height */
+  }
+}
+
+
+
+.sukta{
+    margin: 2%;
+   
+   line-height: 200%;
+   font-weight:500;
+   
+   
+   
+}
+.sukta1{
+    border:1px solid black;
+   margin: 2%;
+   text-align: center;
+   line-height: 200%;
+   font-weight:500;
+}
+
+#heading-container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it's above other content */
+ 
+}
+
+#background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(Images/grunge-paper-background.jpg);
+  /* opacity: 0.9; Adjust the value between 0 and 1 */
+  z-index: -1;
+  
+}
+
+#heading {
+  position: relative;
+  left: 1%;
+  z-index: 1;
+  /* Additional styling for your text */
+  padding: 20px;
+  color: white; /* Text color, adjust as needed */
+  text-align: center;
+  /* font-size: 5vw; */
+  font-size: 5vw;
+
+}
+/* ------------------------------------------Nav bar----------------------------------------- */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ecdcdc;
+    overflow-x: hidden;
+    transition: 0.5s;
+    /* padding-top: 60px; */
+    z-index: 1002;
+    display: flex;
+    flex-direction:column;
+   align-items: center;
+   
+}
+
+/* Links in the navbar */
+.sidenav a {
+    /* padding: 8px 8px 8px 32px; */
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    text-shadow: 1px 1px 2px white,
+     2px 2px 4px white;
+    
+}
+
+/* Close button */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.menu-btn {
+  font-size: 3.4VW;
+  text-align: center;
+  padding: 0%;
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  left: 1%;
+  z-index: 1001; 
+    animation: blink 1s infinite alternate; 
+   width: 15%;
+   height: 52%;
+   background-color: tomato;
+   color: white;
+   text-shadow: 1px 1px 2px black,
+   2px 2px 4px rgb(12, 10, 10);
+   border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-btn:hover {
+  color: #fff; /* Changing color on hover */
+  transform: translateY(-2px) translateZ(0);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+
+/* --------------------------------------Nav bar button--------------------------------------------- */
+
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 3.5rem;
+  justify-content: center;
+  line-height: 2px;
+  list-style: none;
+  /* overflow: hidden; */
+  padding-left: 16px;
+  padding-right: 16px;
+  position:relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: calc(1rem + 0.5vw); /* Responsive based on viewport width */
+  width: 100%  ;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count:2;
+  
+  }
+@keyframes example
+{from{opacity:0;}to{opacity:100%}}
+
+
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.atharvashirshalist{
+
+  width: 100%;
+  text-align: center;
+  background-color:#FFA500;
+  
+}
+
+.suktalist{
+  width: 100%;
+  text-align: center;
+  background-color:  #87CEFA;
+  
+}
+.stotralist{
+  width: 100%;
+  text-align: center;
+  background-color: #90EE90;
+}
+
+.ashtaklist{
+  width: 100%;
+  text-align: center;
+  background-color: #ee90ee;
+}
+
+.dindoriaartilist{
+  width: 100%;
+  text-align: center;
+  background-color: #90ee95;
+}
+
+a.atharvashirshalist{
+  display: none;
+ 
+}
+
+a.suktalist{
+  display: none;
+ 
+}
+
+a.stotralist{
+  display: none;
+ 
+}
+
+a.ashtaklist{
+  display: none;
+ 
+}
+
+a.dindoriaartilist{
+  display: none;
+ 
+}
+
+
+#atharvashirshaicon {
+            transform: rotate(90deg);
+        }
+
+.Vratlist{
+  width: 100%;
+  text-align: center;
+  background-color: #bb6d08;
+}
+
+
+a.Vratlist{
+  display: none;
+
+}
+/* ----------------------------------------------------------------------------------- */
+    </style>
+</head>
+<body>
+    <div id="heading-container" >
+
+      
+      <nav id="side-navbar" class="sidenav">
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a><br><br>
+    <h3 style="border: 3px dashed #e6b1b1; width: 100% ;height: fit-content; text-align: center;"><strong>अनुक्रमणिका</strong></h3>
+    <button id="" class="button-30 fade-in" role="button" ><a  href="index.html" onclick="closeNav()"><h3>॥ प्रस्तावना ॥<span id="icon">&#10147;</span></a></h3></button>
+    <button id="atharvashirshabutton" class="button-30 fade-in" role="button" ><h3>॥ अथर्वशीर्ष ॥<span id="atharvashirshaicon">&#10147;</span></h3></button>  
+                      <a class="atharvashirshalist" href="Ganpati_Atharvashirha.html" onclick="closeNav()">॥ गणपति अथर्वशीर्ष॥</a>
+    <button id="suktabutton" class="button-30 fade-in" role="button"><h3>॥ सूक्त ॥<span id="icon">&#10147;</span></h3></button>
+                     <a class="suktalist" href="Shrisukta.html" onclick="closeNav()">॥ श्रीसूक्त॥</a>
+                    <a class="suktalist"href="#shreesukta" onclick="closeNav()">॥ पुरुष सूक्त॥</a>
+    <button id="stotrabutton" class="button-30 fade-in" role="button"><h3>॥ स्तोत्रम् ॥ <span id="icon">&#10147;</span></h3></button>
+                    <a class="stotralist"href="Ganpatistotra.html" onclick="closeNav()">॥ गणपती स्तोत्र ॥</a>              
+                    <a class="stotralist"href="Ramrakshastotra.html" onclick="closeNav()">॥ श्रीरामरक्षास्तोत्रम् ॥</a>
+    <button id="ashtakbutton" class="button-30 fade-in" role="button"><h3>॥ अष्टक ॥<span id="icon">&#10147;</span></h3></button>
+                   <a class="ashtaklist"href="Kalbhairavashtak.html" onclick="closeNav()">॥ कालभैरव अष्टक ॥</a>
+    <button id="dindoriaartibutton" class="button-30 fade-in" role="button" style="font-size:5px;"><h3>॥ दिंडोरी प्रणित आरती ॥<span id="icon">&#10147;</span></h3></button>
+                    <a class="dindoriaartilist" href="Dindoribhupali.html" onclick="closeNav()">॥ भुपाळी ॥</a>
+                    <a class="dindoriaartilist" href="Dindori10.30.html" onclick="closeNav()">॥ 10:30 ची स्वामी नैवेद्य आरती ॥</a>
+                    <a class="dindoriaartilist" href="Dindori06.30.html" onclick="closeNav()">॥ 06:30 ची स्वामी नैवेद्य आरती ॥</a>
+   <button id="" class="button-30 fade-in" role="button" ><a  href="aartisangrah.html" onclick="closeNav()"><h3>॥ आरती संग्रह ॥<span id="icon">&#10147;</span></a></h3></button>
+    <button id="Vratbutton" class="button-30 fade-in" role="button" style="font-size:5px;"><h3>॥ व्रतवैकल्य ॥<span id="icon">&#10147;</span></h3></button>
+                    <a class="Vratlist" href="Ganeshpuja.html" onclick="closeNav()">॥ गणेश चतुर्थी पूजा विधि ॥</a>
+                    <a class="Vratlist" href="Satynarayanpuja.html" onclick="closeNav()">॥ सत्यनारायण पूजा विधि॥</a>
+    </nav>
+    
+
+
+
+    <!-- Button to open navbar -->
+    <button id="menu" class="menu-btn btn btn-primary btn-sm" onclick="openNav()">॥ Click ॥</button>
+    <!-- <button id="menu" class="menu-btn btn btn-primary" onclick="openNav()">&#9776;</button> -->
+
+      <div id="background-image"></div>
+        <h1 id="heading" class="animate__animated animate__zoomIn">राजेश रमेश रासने वेद प्रचार-प्रसार </h1><img src="https://onedrive.live.com/embed?resid=5C24657F4B8B741C%212750&authkey=%21AGpjUy8HSTrbFAQ" class="img-fluid" style="position: absolute;left: 86vw; top: 3vw;"></div></body>
+    </div>
+    
+    
+
+
+     <div class="sukta1" >
+    
+      <h3 class="sukta">
+      
+        <h2 id="kalbhairavashtak">॥ कालभैरवाष्टक ॥</h2><br>
+                  काळभैरव ही देवता भगवान शंकराचा अवतार मानली जाते. कालभैरवाचे मंदिर काशी शहराच्या वेशीवर असून त्यांना काशीचे कोतवाल असे म्हणतात.<br> 
+                  ही भलेही उग्र आणि तापट देवता असली तरीही ती न्यायप्रिय असल्यामुळे आपल्या भक्तांचे रक्षण करते असे मानले जाते.<br><br>
+               
+                  <strong>ॐ देवराजसेव्यमानपावनाङ्घ्रिपङ्कजं<br>
+                  व्यालयज्ञसूत्रमिन्दुशेखरं कृपाकरम् ।<br>
+                  नारदादियोगिवृन्दवन्दितं दिगंबरं<br>
+                  काशिकापुराधिनाथ कालभैरवं भजे ॥१॥ </strong><br>
+                  (अर्थ-:साक्षात देवराज इंद्र ज्यांच्या चरणांची सेवा करतात, ज्यांनी शरीरावर सर्परूपी यज्ञोपवीत, आणि डोक्यावर चंद्र धारण केलेले आहेत,<br> 
+                  दिशा हे ज्यांचे वस्त्र आहेत आणि नारदादी योगीवृंद ज्यांना आदराने वंदन करतात, अशा या काशीपुरीच्या कालभैरव स्वामींची मी आराधना करतो)<br><br>
+
+                  <strong> भानुकोटिभास्वरं भवाब्धितारकं परं <br>
+                  नीलकण्ठमीप्सितार्थदायकं त्रिलोचनम् ।<br>
+                  कालकालमंबुजाक्षमक्षशूलमक्षरं <br>
+                  काशिकापुराधिनाथ कालभैरवं भजे ॥२॥</strong><br>
+                  (अर्थ-:ज्यांना तीन डोळे आणि निळा कंठ आहे आणि ज्यांचे कोट्यवधी सूर्यप्रकाशासम तेज आहे,<br> 
+                  ते निश्चितच संसाररूपी भवसमुद्र तरून जाण्यास सहाय्यक आहेत. जे अक्षय असून काळाचे महाकाळ आहेत, ज्यांचे नेत्र कोमल आहेत,<br>
+                  ज्यांचे त्रिशूळ समस्त विश्वाचा आधार आहे, अशा या काशीपुरीच्या कालभैरव स्वामींची मी आराधना करतो)<br><br>
+                  
+                  <strong> शूलटङ्कपाशदण्डपाणिमादिकारणं <br>
+                    श्यामकायमादिदेवमक्षरं निरामयम् ।<br>
+                    भीमविक्रमं प्रभुं विचित्रताण्डवप्रियं <br>
+                    काशिकापुराधिनाथ कालभैरवं भजे ॥३॥</strong><br>
+                    (अर्थ-:ज्यांनी हातात त्रिशूळ, भाला, पाश, दंड, इत्यादी धारण केलेले आहेत.<br> 
+                    सावळा रंग असून जे निरामय असून विश्वाच्या आरंभापासून अस्तित्वात आहेत, जे महापराक्रमी असून अद्भुत तांडव करतात, <br>
+                    अशा या काशीपुरीच्या कालभैरव स्वामींची मी आराधना करतो.)<br><br>
+                    
+                    <strong>भुक्तिमुक्तिदायकं प्रशस्तचारुविग्रहं <br>
+                    भक्तवत्सलं स्थितं समस्तलोकविग्रहम् ।<br>
+                    विनिक्वणन्मनोज्ञहेमकिङ्किणीलसत्कटिं <br>
+                    काशिकापुराधिनाथ कालभैरवं भजे ॥४॥ </strong><br>
+                    (अर्थ-:जे आपल्या भक्तांना भुक्ती आणि मुक्ती प्रदान करतात, ज्यांचे स्वरूप प्रशस्त आणि सुंदर आहे, <br>
+                    ज्यांचे चारही लोकांत सामावलेले आहे, जे आपल्या भक्तांवर ममत्वाचा वर्षाव करतात, <br>
+                    ज्यांच्या कमरेला मंजुळ आवाजात किणकिणणाऱ्या घंट्या आहेत, <br>
+                    अशा या काशीपुरीच्या कालभैरव स्वामींची मी आराधना करतो.)<br><br>
+                    
+                    <strong>धर्मसेतुपालकं त्वधर्ममार्गनाशकं<br>
+                    कर्मपाशमोचकं सुशर्मदायकं विभुम् ।<br>
+                    स्वर्णवर्णशेषपाशशोभिताङ्गमण्डलं <br>
+                    काशिकापुराधिनाथ कालभैरवं भजे ॥५॥</strong><br>
+                   (अर्थ-:जे धर्ममार्गाचे पालक तथा रक्षक असून अधर्माचा नाश करतात,<br>
+                    ते दिसण्यास आनंददायी असून भक्तांच्या जन्मोजन्मीच्या कर्मपाशाचा नाश करतात. <br>
+                   सर्पांनी शरीर वेढल्यामुळे जे शोभून दिसताहेत, अशा या काशीपुरीच्या कालभैरव स्वामींची मी आराधना करतो.)<br><br>
+                    
+                   <strong>रत्नपादुकाप्रभाभिरामपादयुग्मकं <br>
+                    नित्यमद्वितीयमिष्टदैवतं निरञ्जनम् ।<br>
+                    मृत्युदर्पनाशनं कराळदंष्ट्रमोक्षणं <br>
+                    काशिकापुराधिनाथ कालभैरवं भजे ॥६॥</strong><br>
+                    (अर्थ-: पायात रत्नजडित पादुका धारण केल्यामुळे जे सुशोभित झाले आहेत आणि नित्य निर्मल, <br>
+                     अविनाशी, अद्वितीय असून भक्तप्रिय आहेत. जे मृत्यूचा अहंकार दूर सारून आपल्या भयावह दातांनी काळापासून भक्तांचे रक्षण करतात, <br>
+                     अशा या काशीपुरीच्या कालभैरव स्वामींची मी आराधना करतो.)<br><br>
+                    
+                    <strong>अट्टहासभिन्नपद्मजाण्डकोशसन्ततिं <br>
+                    दृष्टिपातनष्टपापजालमुग्रशासनम् ।<br>
+                    अष्टसिद्धिदायकं कपालमालिकन्धरं<br>
+                    काशिकापुराधिनाथ कालभैरवं भजे ॥७॥</strong><br>
+                    (अर्थ-: ज्यांच्या विकट हास्याने संपूर्ण ब्रम्हांड विदीर्ण होते आणि ज्यांच्या एका दृष्टीकटाक्षाने सर्व पापांचा नाश होतो, <br>
+                    तसेच ज्याचे शासन कठोर असून आपल्या भक्तांना जो सर्व प्रकारच्या सिद्धी देतो, <br>
+                    अशा या नरमुंड धारक काशीपुरीच्या कालभैरव स्वामींची मी आराधना करतो.)<br><br>
+                    
+                    
+                    <strong>भूतसङ्घनायकं विशालकीर्तिदायकं<br>
+                    काशिवासलोकपुण्यपापशोधकं विभुम् ।<br>
+                    नीतिमार्गकोविदं पुरातनं जगत्पतिं<br>
+                    काशिकापुराधिनाथ कालभैरवं भजे ॥८॥</strong><br><br>
+                    (अर्थ-:जो समस्त भूत संघाचा नायक असून विशाल किर्तीदायक आहे, <br>
+                    तसेच तो काशीपुरीत राहणाऱ्या भक्तांच्या पाप-पुण्याचा हिशोब ठेवतो. <br>
+                    ज्याला नीती आणि अनीतीच्या मार्गाची जाण आहे तसेच तो अत्यंत प्राचीन काळापासून जगाचा स्वामी आहे,<br> 
+                    अशा या काशीपुरीच्या कालभैरव स्वामींची मी आराधना करतो.)<br><br>
+                    
+                    
+                    <strong>कालभैरवाष्टकं पठन्ति ये मनोहरं <br>
+                    ज्ञानमुक्तिसाधनं विचित्रपुण्यवर्धनम् ।<br>
+                    शोकमोहदैन्यलोभकोपतापनाशनं <br>
+                    ते प्रयान्ति कालभैरवाङ्घ्रिसन्निधिं नरा ध्रुवम् ॥९॥</strong><br>
+                    (अर्थ-:जे लोक अशा या मनोहर कालभैरवाष्टकाचे निरंतर पठण करतात, त्यांना ज्ञान तथा मुक्तीचा लाभ होतो. <br>
+                    तसेच त्यांच्या सर्व शोक, मोह, दैन्य, लोभ, कोप आणि ताप इत्यादींचा नाश होतो. <br>
+                    अशा प्रकारे हे लोक अंती कालभैरवाच्या चरणी आपले स्थान प्राप्त करतात.)<br><br>
+                   
+                    
+                    ॥ इति श्रीमच्छङ्कराचार्यविरचितं कालभैरवाष्टकं संपूर्णम् ॥
+           
+
+        
+      </h3>
+
+
+    </div>
+    <script>
+      function openNav() {
+          document.getElementById("side-navbar").style.width = "320px";
+      }
+
+      function closeNav() {
+          document.getElementById("side-navbar").style.width = "0";
+      }
+
+//  -----------------------------------------------Span Symbole down arrow--------------------------------------------------
+   
+
+
+
+
+       //  -----------------------------------------------atharvashirsha--------------------------------------------------
+           // Function to toggle visibility of suktalist elements
+     function toggleAtharvashirshalist() {
+            var atharvashirshalists = document.querySelectorAll('.atharvashirshalist');
+            atharvashirshalists.forEach(function(atharvashirshalist) {
+                if (atharvashirshalist.style.display === 'none' || atharvashirshalist.style.display === '') {
+                  atharvashirshalist.style.display = 'block';
+                } else {
+                  atharvashirshalist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('atharvashirshabutton').addEventListener('click', function() {
+          toggleAtharvashirshalist();
+        });
+
+        // Function to close the side navbar
+        //function closeNav() {
+            //document.getElementById('side-navbar').style.width = '0';
+        //}
+
+   //  -----------------------------------------------Sukta--------------------------------------------------
+     // Function to toggle visibility of suktalist elements
+     function toggleSuktalist() {
+            var suktalists = document.querySelectorAll('.suktalist');
+            suktalists.forEach(function(suktalist) {
+                if (suktalist.style.display === 'none' || suktalist.style.display === '') {
+                    suktalist.style.display = 'block';
+                } else {
+                    suktalist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('suktabutton').addEventListener('click', function() {
+            toggleSuktalist();
+        });
+
+        // Function to close the side navbar
+        //function closeNav() {
+           // document.getElementById('side-navbar').style.width = '0';
+        //}
+//  -----------------------------------------------Stotra--------------------------------------------------
+function toggleStotralist() {
+            var stotralists = document.querySelectorAll('.stotralist');
+            stotralists.forEach(function(stotralist) {
+                if (stotralist.style.display === 'none' || stotralist.style.display === '') {
+                  stotralist.style.display = 'block';
+                } else {
+                  stotralist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('stotrabutton').addEventListener('click', function() {
+          toggleStotralist();
+        });
+   // Function to close the side navbar
+   //function closeNav() {
+           // document.getElementById('side-navbar').style.width = '0';
+       // }
+
+//  -----------------------------------------------Ashtak--------------------------------------------------
+
+function toggleAshtaklist() {
+            var ashtaklists = document.querySelectorAll('.ashtaklist');
+            ashtaklists.forEach(function(ashtaklist) {
+                if (ashtaklist.style.display === 'none' || ashtaklist.style.display === '') {
+                  ashtaklist.style.display = 'block';
+                } else {
+                  ashtaklist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('ashtakbutton').addEventListener('click', function() {
+          toggleAshtaklist();
+        });
+   // Function to close the side navbar
+   //function closeNav() {
+           // document.getElementById('side-navbar').style.width = '0';
+       // }
+
+//  -----------------------------------------------dindoriaarti--------------------------------------------------
+
+function toggledindoriaartilist() {
+            var dindoriaartilist = document.querySelectorAll('.dindoriaartilist');
+            dindoriaartilist.forEach(function(dindoriaartilist) {
+                if (dindoriaartilist.style.display === 'none' || dindoriaartilist.style.display === '') {
+                  dindoriaartilist.style.display = 'block';
+                } else {
+                  dindoriaartilist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('dindoriaartibutton').addEventListener('click', function() {
+          toggledindoriaartilist();
+        });
+
+
+        //  -----------------------------------------------Vratlist--------------------------------------------------
+
+function toggleVratlist() {
+            var Vratlist = document.querySelectorAll('.Vratlist');
+            Vratlist.forEach(function(Vratlist) {
+                if (Vratlist.style.display === 'none' || Vratlist.style.display === '') {
+                  Vratlist.style.display = 'block';
+                } else {
+                  Vratlist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('Vratbutton').addEventListener('click', function() {
+          toggleVratlist();
+        });
+
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+</body>
+</html>.

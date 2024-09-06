@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>शिवोपासन मन्त्राः </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Tiro+Devanagari+Marathi&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+
+/>
+   <style>
+       
+       *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+    
+        
+     body{
+      font-size: 1rem;
+        background-color: #FFF3E7;
+        font-family: 'Times New Roman', Times, serif;
+        /* ---------Below CSS restrict user from Selection----------- */
+        user-select: none;
+        -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     }
+
+    /* ---------Below CSS for restrict user for print ----------- */
+    @media print {
+  body {
+    display: none;
+  }
+}
+
+
+
+/* Responsive styles for large screens */
+@media (min-width: 992px) {
+  body{
+    font-size: 1rem;/* Example maximum height */
+  }
+}
+
+/* Responsive styles for medium screens */
+@media (max-width: 991px) {
+  body {
+    font-size: 1rem;/* Example maximum height */
+  }
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 768px) {
+  body {
+    font-size: 1rem; /* Example maximum height */
+  }
+}
+
+/* Responsive styles for extra small screens (phones) */
+@media (max-width: 576px) {
+  body {
+    font-size: 1rem; /* Example maximum height */
+  }
+}
+
+
+
+.sukta{
+    margin: 2%;
+   
+   line-height: 200%;
+   font-weight:500;
+   
+   
+   
+}
+.sukta1{
+    border:1px solid black;
+   margin: 2%;
+   text-align: center;
+   line-height: 200%;
+   font-weight:500;
+}
+
+#heading-container {
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure it's above other content */
+ 
+}
+
+#background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(Images/grunge-paper-background.jpg);
+  /* opacity: 0.9; Adjust the value between 0 and 1 */
+  z-index: -1;
+  
+}
+
+#heading {
+  position: relative;
+  left: 1%;
+  z-index: 1;
+  /* Additional styling for your text */
+  padding: 20px;
+  color: white; /* Text color, adjust as needed */
+  text-align: center;
+  /* font-size: 5vw; */
+  font-size: 5vw;
+
+}
+/* ------------------------------------------Nav bar----------------------------------------- */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ecdcdc;
+    overflow-x: hidden;
+    transition: 0.5s;
+    /* padding-top: 60px; */
+    z-index: 1002;
+    display: flex;
+    flex-direction:column;
+   align-items: center;
+   
+}
+
+/* Links in the navbar */
+.sidenav a {
+    /* padding: 8px 8px 8px 32px; */
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    text-shadow: 1px 1px 2px white,
+     2px 2px 4px white;
+    
+}
+
+/* Close button */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.menu-btn {
+  font-size: 3.4VW;
+  text-align: center;
+  padding: 0%;
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  left: 1%;
+  z-index: 1001; 
+    animation: blink 1s infinite alternate; 
+   width: 15%;
+   height: 52%;
+   background-color: tomato;
+   color: white;
+   text-shadow: 1px 1px 2px black,
+   2px 2px 4px rgb(12, 10, 10);
+   border: none;
+  border-radius: 5px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-btn:hover {
+  color: #fff; /* Changing color on hover */
+  transform: translateY(-2px) translateZ(0);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+
+}
+
+
+/* --------------------------------------Nav bar button--------------------------------------------- */
+
+.button-30 {
+  align-items: center;
+  appearance: none;
+  background-color: #FCFCFD;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 3.5rem;
+  justify-content: center;
+  line-height: 2px;
+  list-style: none;
+  /* overflow: hidden; */
+  padding-left: 16px;
+  padding-right: 16px;
+  position:relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: calc(1rem + 0.5vw); /* Responsive based on viewport width */
+  width: 100%  ;
+  animation-name: example;
+  animation-duration: 1s;
+  animation-iteration-count:2;
+  
+  }
+@keyframes example
+{from{opacity:0;}to{opacity:100%}}
+
+
+
+.button-30:focus {
+  box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+}
+
+.button-30:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-30:active {
+  box-shadow: #D6D6E7 0 3px 7px inset;
+  transform: translateY(2px);
+}
+
+.atharvashirshalist{
+
+  width: 100%;
+  text-align: center;
+  background-color:#FFA500;
+  
+}
+
+.suktalist{
+  width: 100%;
+  text-align: center;
+  background-color:  #87CEFA;
+  
+}
+.stotralist{
+  width: 100%;
+  text-align: center;
+  background-color: #90EE90;
+}
+
+.ashtaklist{
+  width: 100%;
+  text-align: center;
+  background-color: #ee90ee;
+}
+
+.dindoriaartilist{
+  width: 100%;
+  text-align: center;
+  background-color: #90ee95;
+}
+
+a.atharvashirshalist{
+  display: none;
+ 
+}
+
+a.suktalist{
+  display: none;
+ 
+}
+
+a.stotralist{
+  display: none;
+ 
+}
+
+a.ashtaklist{
+  display: none;
+ 
+}
+
+a.dindoriaartilist{
+  display: none;
+ 
+}
+
+
+#atharvashirshaicon {
+            transform: rotate(90deg);
+        }
+
+.Vratlist{
+  width: 100%;
+  text-align: center;
+  background-color: #bb6d08;
+}
+
+
+a.Vratlist{
+  display: none;
+
+}
+/* ----------------------------------------------------------------------------------- */
+    </style>
+</head>
+<body>
+    <div id="heading-container" >
+
+   
+      <nav id="side-navbar" class="sidenav">
+        <a href="#" class="closebtn" onclick="closeNav()">&times;</a><br><br>
+    <h3 style="border: 3px dashed #e6b1b1; width: 100% ;height: fit-content; text-align: center;"><strong>अनुक्रमणिका</strong></h3>
+    <button id="" class="button-30 fade-in" role="button" ><a  href="index.html" onclick="closeNav()"><h3>॥ प्रस्तावना ॥<span id="icon">&#10147;</span></a></h3></button>
+    <button id="atharvashirshabutton" class="button-30 fade-in" role="button" ><h3>॥ अथर्वशीर्ष ॥<span id="atharvashirshaicon">&#10147;</span></h3></button>  
+                      <a class="atharvashirshalist" href="Ganpati_Atharvashirha.html" onclick="closeNav()">॥ गणपति अथर्वशीर्ष॥</a>
+    <button id="suktabutton" class="button-30 fade-in" role="button"><h3>॥ सूक्त ॥<span id="icon">&#10147;</span></h3></button>
+                     <a class="suktalist" href="Shrisukta.html" onclick="closeNav()">॥ श्रीसूक्त॥</a>
+                    <a class="suktalist"href="#shreesukta" onclick="closeNav()">॥ पुरुष सूक्त॥</a>
+    <button id="stotrabutton" class="button-30 fade-in" role="button"><h3>॥ स्तोत्रम् ॥ <span id="icon">&#10147;</span></h3></button>
+                    <a class="stotralist"href="Ganpatistotra.html" onclick="closeNav()">॥ गणपती स्तोत्र ॥</a>              
+                    <a class="stotralist"href="Ramrakshastotra.html" onclick="closeNav()">॥ श्रीरामरक्षास्तोत्रम् ॥</a>
+    <button id="ashtakbutton" class="button-30 fade-in" role="button"><h3>॥ अष्टक ॥<span id="icon">&#10147;</span></h3></button>
+                   <a class="ashtaklist"href="Kalbhairavashtak.html" onclick="closeNav()">॥ कालभैरव अष्टक ॥</a>
+    <button id="dindoriaartibutton" class="button-30 fade-in" role="button" style="font-size:5px;"><h3>॥ दिंडोरी प्रणित आरती ॥<span id="icon">&#10147;</span></h3></button>
+                    <a class="dindoriaartilist" href="Dindoribhupali.html" onclick="closeNav()">॥ भुपाळी ॥</a>
+                    <a class="dindoriaartilist" href="Dindori10.30.html" onclick="closeNav()">॥ 10:30 ची स्वामी नैवेद्य आरती ॥</a>
+                    <a class="dindoriaartilist" href="Dindori06.30.html" onclick="closeNav()">॥ 06:30 ची स्वामी नैवेद्य आरती ॥</a>
+   <button id="" class="button-30 fade-in" role="button" ><a  href="aartisangrah.html" onclick="closeNav()"><h3>॥ आरती संग्रह ॥<span id="icon">&#10147;</span></a></h3></button>
+    <button id="Vratbutton" class="button-30 fade-in" role="button" style="font-size:5px;"><h3>॥ व्रतवैकल्य ॥<span id="icon">&#10147;</span></h3></button>
+                    <a class="Vratlist" href="Ganeshpuja.html" onclick="closeNav()">॥ गणेश चतुर्थी पूजा विधि ॥</a>
+                    <a class="Vratlist" href="Satynarayanpuja.html" onclick="closeNav()">॥ सत्यनारायण पूजा विधि॥</a>
+    </nav>
+    
+
+
+
+    <!-- Button to open navbar -->
+    <button id="menu" class="menu-btn btn btn-primary btn-sm" onclick="openNav()">॥ Click ॥</button>
+    <!-- <button id="menu" class="menu-btn btn btn-primary" onclick="openNav()">&#9776;</button> -->
+
+      <div id="background-image"></div>
+        <h1 id="heading" class="animate__animated animate__zoomIn">राजेश रमेश रासने वेद प्रचार-प्रसार </h1><img src="https://onedrive.live.com/embed?resid=5C24657F4B8B741C%212750&authkey=%21AGpjUy8HSTrbFAQ" class="img-fluid" style="position: absolute;left: 86vw; top: 3vw;"></div></body>
+    </div>
+    
+    
+
+
+     <div class="sukta1" >
+    
+      <h3 class="sukta">
+      
+
+        
+
+          <h2 id="ganpatiatharva" ><img src="Images/download.jfif" alt="Muladhara">गणपति अथर्वशीर्ष<img src="Images/download.jfif" alt="Muladhara" ></h2><br>
+         <p><strong>गण‘</strong> म्हणजे अष्टवसूंचा समूह. ‘वसु’ म्हणजे दिशा, दिकपाल, दिक् देव म्हणून दिशांचा स्वामी आणि ‘पती’ तो गणपती.
+          इतर देवता त्याच्या परवानगीशिवाय कोणत्याही दिशेने येऊ शकत नाहीत. म्हणून कोणतेही मंगल कार्य किंवा इतर कोणत्याही देवतेची पूजा करतांना प्रथम गणपतीपूजन करतात. 
+          गणपतीने एकदा दिशा मोकळया केल्या की, ज्या देवतेची आपण पूजा करीत असतो, ती तिथे येऊ शकते. यालाच ‘महाद्वारपूजन’ किंवा ‘महागणपतीपूजन’ असे म्हणतात.
+          याशिवाय ‘गण ‘ म्हणजे पवित्रके,जी अतिशय सूक्ष्मातिसूक्ष्म असतात म्हणून गणपती म्हणजे पवित्रकांचा स्वामी.</p><br>
+          <p>पूजा करतांना लाल वस्त्र, तांबडे फूल व रक्तचंदन वापरतात. 
+            लाल रंगामुळे वातावरणातील गणपतीची पवित्रके मूर्तीक़डे जास्त प्रमाणात आकृष्ट होतात व मूर्ती जागृत व्हावयास मदत होते. 
+            गणपतीला दुर्वा आवडतात. म्हणजे गणपती दुर्वांनी आच्छादल्यामुळे मूर्तीच्या बाजूने दुर्वामचा वास निघायला लागतो. 
+            हा गंध गणपतीच्या आकारात संप्रषित होतो म्हणून गणपतीच्या पवित्रकांच्या आकाराला या आकाराकडे येणे सोपे जाते यालाच मूर्ती जागृत झाली असे म्हणतात. 
+            याशिवाय शमीमध्ये ‘अग्नीचावास’ आहे व मंदार हे ‘एक वानस्पत्य रसायन’आहे म्हणून गणपतीला प्रिय आहे.
+            उपास किंवा उपवास हे व्रत असून या व्रताची देवता ‘श्री सिध्दीविनायक’ आहे. सर्व चांगले व्हावे ह्याकरिता ‘विनायकी’ करतात. 
+            ‘संकष्टी’ ह्या व्रताची देवता ‘श्री विघ्नविनायक’ आहे. विघ्न म्हणजे संकट, 
+            पृथ्वीपासून येणाऱ्या 360 लहरींनी आपण वेढले जातो. त्यामुळे शरीरातील प्रवाह बंदिस्त होतात व यालाच ‘संकट’ म्हणतात. कृष्ण पक्षात 360 लहरी जास्त प्रमाणात कार्यरत असतात. 
+            त्यामुळे शरीराच्या नाडयांतील प्रवाह बंदिस्त होतात</p><br>
+            ‘अथर्वशीर्ष‘- ‘थर्व’ म्हणजे गरम, ‘अथर्व’ म्हणजे शांती व ‘शीर्ष’ म्हणजे मस्तक. 
+            ‘ज्याच्या पुर0चरणाने मस्तकास शांती प्राप्त होते ते अर्थवशीर्ष होय’. यानंतर नैवेद्य, या नैवेद्यात परिपूर्ण आहारात मोदकाचा समावेश असतो. 
+            मोदक हे ज्ञानाचे प्रतीक आहे म्हणून त्याला ‘ज्ञानमोदक’ असेही म्हणतात. 
+            ज्ञान प्रथम थोडे आहे असे वाटते. (मोदकाचे टोक हे त्याचे प्रतीक आहे.) पण अभ्यास करू लागल्यावर समजते की ज्ञान हे फारच मोठे आहे. 
+            मोदक गोड असतो, ज्ञानाचा आनंदही तसाच असतो. पूजा करणारा गणेश लहरींनी सपृक्त व्हावा, हा पूजेचा उद्देश असतो. 
+            ही संपृक्तता वाढविण्यातला शेवटचा टप्पा म्हणजे ‘उत्तरपूजा’. उत्तरपूजेच्यावेळी मूर्तीत असलेली सर्व पवित्रके एकदम बाहेर पडतात व पूजा करणाऱ्याला त्याचा लाभ होतो. 
+            गणपती हा बुध्दीदाता आहे म्हणून प्रथम ‘श्री गणेशायनम:’ असे लिहितात. ज्ञान ग्रहण केले तर ते शब्दबध्द करण्याचे काम सरस्वतीचे आहे. 
+            गणपती ही एकमेव देवता ‘शब्दभाषा’ म्हणजेच ‘नादभाषा’ जाणणारी देवता आहे. आपण बोलतो ती नादभाषा गणपती समजू शकतो म्हणूनच तो लवकर प्रसन्न होणारा देव आहे.
+             इतर देव बहुतांशी प्रकाशभाषा समजू शकतात. गणपती ही नादाचे प्रकाशात व प्रकाशाचे नादात रूपांतर करणारी देवता आहे. 
+             ‘गणेशविद्या’ म्हणजे ध्वनीवर आधारीत लेखशास्त्र. ‘गं’ हा बीजमंत्र नीट लिहिण्याच्या संदर्भात हा शब्द या अर्थाने गणपती अर्थवशीर्ष या स्तोत्रात वापरलेला आहे. 
+             अशी ही गणपती देवता व तिचे पूजन भक्तिभावाने केल्यास तसेच दररोज गणेशाला नमन केल्यास प्रत्येकाला त्याचा जरूर अध्यात्मिक फायदा होतो.<br>
+         <strong>शान्ति मंत्र</strong> <br>
+            ॐ भद्रं कर्णेभिः शृणुयाम देवाः ।<br>
+           भद्रं पश्येमाक्षभिर्यजत्राः ।<br>
+            स्थिरैरङ्गैस्तुष्टुवाग्‍ँसस्तनूभिः ।<br>
+            व्यशेम देवहितं यदायूः ।<br><br>
+
+           <strong> अथ अथर्वशीर्ष </strong><br>
+           
+           <strong>ॐ नमस्ते गणपतये <br>
+           त्वमेव प्रत्यक्षं तत्त्वमसि ।<br>
+           त्वमेव केवलं कर्ताऽसि ।<br>
+           त्वमेव केवलं धर्ताऽसि ।<br>
+           त्वमेव केवलं हर्ताऽसि ।<br>
+          त्वमेव सर्वं खल्विदं ब्रह्मासि ।<br>
+          त्वं साक्षादात्माऽसि नित्यम् ॥१॥<br></strong>
+          (अर्थ-:  ॐकाररूपी गणेशाला नमस्कार असो
+             तूच प्रत्यक्ष ईश्वरस्वरुप आहेस.
+            केवळ तूच (सृष्टीचा) कर्ता (निर्माता) आहेस.
+           केवळ तूच (सृष्टीचा) पालनकर्ता आहेस.
+            केवळ तूच (सृष्टीचा) संहार करणाराही आहेस.
+            खरोखरी केवळ तूच सर्व ब्रह्मतत्व आहेस.
+           तूच साक्षात अविनाशी आत्मस्वरूप आहेस.)<br><br>
+          
+          <strong>ऋतं वच्मि । सत्यं वच्मि ॥२॥</strong><br>
+          (अर्थ-:मी योग्य (तेच) बोलतो, मी खरे (तेच) बोलतो.)<br><br>
+
+          <strong>अव त्वं माम् ।<br>
+          अव वक्तारम् ।<br>
+          अव श्रोतारम् ।<br>
+          अव दातारम् ।<br>
+          अव धातारम् ।<br>
+          अवानूचानमव शिष्यम् ।<br>
+          अव पुरस्तात् ।<br>
+          अव दक्षिणात्तात् ।<br>
+          अव पश्चात्तात् ।<br>
+          अवोत्तरात्तात् ।<br>
+          अव चोर्ध्वात्तात् ।<br>
+          अवाधरात्तात् ।<br>
+          सर्वतो मां पाहि पाहि समन्तात् ॥३॥</strong><br>
+          (अर्थ-:तू माझे रक्षण कर.<br>
+          तुझा महिमा सांगणाऱ्यांचे तू रक्षण कर.<br>
+          तो श्रवण करणाऱ्यांचे तू रक्षण कर.<br>
+          तुझे ज्ञान देणाऱ्यांचे तू रक्षण कर.<br>
+          ते मिळवणाऱ्यांचे तू रक्षण कर.<br>
+          वेद पारंगत गुरूंचे आणि त्यांच्या शिष्यांचे रक्षण कर.<br>
+          माझे पश्चिमेकडून रक्षण कर.<br>
+          माझे पूर्वेकडून रक्षण कर.<br>
+          माझे उत्तरेकडून रक्षण कर.<br>
+          माझे दक्षिणेकडून रक्षण कर.<br>
+          माझे आकाशातून रक्षण कर.<br>
+          माझे खालून पाताळातून रक्षण कर.<br>
+          सर्व बाजूनीं व सर्व ठिकाणी तू माझे रक्षण कर)<br><br>
+
+       <strong> त्वं वाङ्मयस्त्वं चिन्मयः ।<br>
+        त्वमानन्दमयस्त्वं ब्रह्ममयः ।<br>
+        त्वं सच्चिदानन्दाऽद्वितीयोऽसि ।<br>
+        त्वं प्रत्यक्षं ब्रह्मासि ।<br>
+        त्वं ज्ञानमयो विज्ञानमयोऽसि ॥४॥</strong><br>
+        (अर्थ-:तुम्हीच वाम आहात, तुम्हीच चिन्मय आहात, तुम्हीच आनंद ब्रह्म ज्ञानी आहात, तुम्हीच सच्चिदानंद आहात, अद्वितीय रूप आहात,<br> 
+        तुम्हीच प्रकट कर्ता आहात.तुम्हीच ब्रह्म आहात, तुम्हीच ज्ञानविज्ञानाचा दाता आहात.)<br><br>
+         
+        <strong>सर्वं जगदिदं त्वत्तो जायते ।<br>
+         सर्वं जगदिदं त्वत्तस्तिष्ठति ।<br>
+         सर्वं जगदिदं त्वयि लयमेष्यति ।<br>
+         सर्वं जगदिदं त्वयि प्रत्येति ।<br>
+         त्वं भूमिरापोऽनलोऽनिलो नभः ।<br>
+            त्वं चत्वारि वाक् {परिमिता} पदानि ॥५॥</strong><br>
+            (अर्थ-:तुम्ही या जगाचे निर्माता आहात, सर्व जगाला तुम्ही संरक्षण दिले आहेस, <br>
+            सर्व जग तुमच्यामध्ये आहे, सर्व जग तुमच्यामध्ये दिसते आहे, तुम्ही जल, जमीन,आकाश आणि वायू आहात, <br>
+            तुम्हीच चारही दिशेला व्यापलेला आहात.)<br><br>
+            
+            
+           <strong>त्वं गुणत्रयातीतः ।<br>
+          त्वं अवस्थात्रयातीतः ।<br>
+          त्वं देहत्रयातीतः ।<br>
+            त्वं कालत्रयातीतः ।<br>
+            त्वं मूलाधारस्थितोऽसि नित्यम् ।<br>
+            त्वं शक्तित्रयात्मकः ।<br>
+            त्वां योगिनो ध्यायन्ति नित्यम् ।<br>
+            त्वं ब्रह्मा त्वं विष्णुस्त्वं<br>
+            रुद्रस्त्वमिन्द्रस्त्वमग्निस्त्वं<br>
+            वायुस्त्वं सूर्यस्त्वं चन्द्रमास्त्वं<br>
+            ब्रह्म भूर्भुवस्सुवरोम् ॥६॥</strong><br>
+            (अर्थ-:प्रभू तुम्ही सत्त्व, रज आणि तम या तीन गुणांपेक्षा वेगळे आहात. <br>
+            तुम्ही भूतकाळ, भविष्यकाळ आणि वर्तमान याहून भिन्न आहात. तिन्ही देहांपासून वेगळे आहात,<br> 
+            तुम्ही जीवनाच्या मूळ पायावर वसलेले आहात.तुमच्यामध्ये धर्म, उत्साह आणि मानसिक या तीन शक्ती व्याप्त आहेत.<br>
+             योगी आणि महागुरू फक्त तुमचेच ध्यान करतात. तुम्ही ब्रह्मा, विष्णू, रुद्र, इंद्र, अग्नि, वायू, सूर्य, चंद्र आहात. <br>
+             तुमच्यात सगुण, सगुण आणि निर्गुण यांचा समावेश आहेस )<br><br>
+
+            <strong>गणादिं पूर्वमुच्चार्य वर्णादींस्तदनन्तरम् ।<br>
+            अनुस्वारः परतरः ।<br>
+            अर्धेन्दुलसितम् ।<br>
+            तारेण ऋद्धम् ।<br>
+            एतत्तव मनुस्वरूपम् <br>
+            गकारः पूर्वरूपम् ।<br>
+            अकारो मध्यरूपम् ।<br>
+            अनुस्वारश्चान्त्यरूपम् ।<br>
+            बिन्दुरुत्तररूपम् ।<br>
+            नादस्संधानम् ।<br>
+            सग्ं‌हिता संधिः <br><br>
+            सैषा गणेशविद्या ।<br>
+            गणक ऋषिः ।<br>
+            निचृद्गायत्रीच्छन्दः ।<br>
+            गणपतिर्देवता ।<br>
+            ॐ गं गणपतये नमः ॥७॥</strong><br>
+            (अर्थ-:“गण” याचे उच्चारण केल्यानंतर आदिवर्ण अकार उच्चारण करा | <br>
+            ॐ कार उच्चारण करा | हे पूर्ण मन्त्र ॐ गं गणपतये नम: चा मनोभावे उच्चारण करा.)<br><br>
+
+            <strong>एकदन्ताय विद्महे वक्रतुण्डाय धीमहि ।<br>
+            तन्नो दन्तिः प्रचोदयात् ॥८॥</strong><br>
+            (अर्थ-:एकदंत, वक्रतुंड याचे आम्ही ध्यान करतो. आम्हाला या सद्मार्गावर चालण्याची प्रेरणा द्या.)<br><br>
+
+            <strong>एकदन्तं चतुर्हस्तं पाशमङ्कुशधारिणम् ।<br>
+            रदं च वरदं हस्तैर्बिभ्राणं मूषकध्वजम् ॥<br>
+            रक्तं लम्बोदरं शूर्पकर्णकं रक्तवाससम् ।<br>
+            रक्तगन्धानुलिप्ताङ्गं रक्तपुष्पैस्सुपूजितम् ॥<br>
+            भक्तानुकम्पिनं देवं जगत्कारणमच्युतम् ।<br>
+            आविर्भूतं च सृष्ट्यादौ प्रकृतेः पुरुषात्परम् ।<br>
+            एवं ध्यायति यो नित्यं स योगी योगिनां वरः ॥९॥</strong><br>
+            (अर्थ-:अर्थ-: भगवान गणेश एकदंत चार भुजाधारी आहे ज्यात पाश, अंकुश, दंत आणि वर मुद्रा आहेत. <br>
+            त्यांच्या ध्वजावर एक मूषक आहे. हे लाल वस्त्रधारी आहे. चंदनाचे लेप लावलेले आहे. <br>
+            लाल फुले धारण करतात सर्वांच्या इच्छा पूर्ण करणारे जगात सर्वत्र व्यापत आहेत. सृष्टी रचियता आहे. <br>
+            त्यांची मनापासून पूजा करणारा महान योगी आहे.)<br><br>
+             
+            <strong>नमो व्रातपतये ।<br>
+            नमो गणपतये ।<br>
+            नमः प्रमथपतये ।<br>
+            नमस्तेऽस्तु लम्बोदरायैकदन्ताय <br>
+            विघ्ननाशिने शिवसुताय वरदमूर्तये नमः ॥१०॥</strong><br>
+            (अर्थ-: व्रातपति, गणपतीला नमन. प्रथम पतीला नमन, एकदंताला नमन, विध्नविनाशक, लम्बोदर, शिवतनय श्री वरद मूर्तीला नमन.)<br><br>
+
+            <strong>फलश्रुति</strong><br>
+            एतदथर्वशीर्षं योऽधीते स ब्रह्मभूयाय कल्पते ।<br>
+            स सर्वविघ्नैर्न बाध्यते ।<br>
+            स सर्वत्र सुखमेधते ।<br>
+            स पञ्चमहापापात्प्रमुच्यते ।<br>
+            सायमधीयानो दिवसकृतं पापं नाशयति ।<br>
+            प्रातरधीयानो रात्रिकृतं पापं नाशयति ।<br>
+            सायं प्रातः प्रयुञ्जानो पापोऽपापो भवति ।<br>
+            सर्वत्राधीयानोऽपविघ्नो भवति ।<br>
+            धर्मार्थकाममोक्षं च विन्दति ॥॥<br>
+            इदमथर्वशीर्षमशिष्याय न देयम् ।<br>
+            यो यदि मोहाद्दास्यति स पापीयान् भवति ।<br>
+            सहस्रावर्तनाद्यं यं काममधीते तं तमनेन साधयेत् ॥॥<br>
+            <strong>(अर्थ-:जो या अथर्वशीषाचा पाठ करतो तो विघ्नांपासून दूर होतो. तो नेहमी आनंदी राहतो, 
+            पाच महापापांपासून मुक्त होतो. संध्याकाळचे पठण केल्याने दिवसाचे 
+           दोष दूर केले जातात. सकाळी पाठ केल्याने रात्रीचे दोष दूर होतात. 
+           निरंतर पाठ करणारा दोषमुक्त होतो आणि धर्म, अर्थ, काम व मोक्षावर विजय प्राप्त करतो. 
+           याचे 1000 वेळा पठण केल्याने उपासक सिद्धी प्राप्त करून योगी बनतो.)</strong><br><br>
+
+            अनेन गणपतिमभिषिञ्चति स वाग्मी भवति ।<br>
+            चतुर्थ्यामनश्नन् जपति स विद्यावान् भवति ।<br>
+            इत्यथर्वणवाक्यम् ।<br>
+            ब्रह्माद्यावरणं विद्यान्न बिभेति कदाचनेति ॥॥<br>
+            <strong>(अर्थ-:जो कोणी या मंत्राच्या जपाने गणेशाला अभिषेक करतो, त्याची वाणी त्याची दास बनते. 
+              जो चतुर्थीचा उपवास करतो आणि जप करतो तो विद्वान होतो. जो विश्वाचे आवरण जाणतो तो भयमुक्त असतो.)</strong><br><br>
+
+            यो दूर्वाङ्कुरैर्यजति स वैश्रवणोपमो भवति ।<br>
+            यो लाजैर्यजति स यशोवान् भवति ।<br>
+            स मेधावान् भवति ।<br>
+            यो मोदकसहस्रेण यजति स वाञ्छितफलमवाप्नोति ।<br>
+            यस्साज्यसमिद्भिर्यजति स सर्वं लभते स सर्वं लभते ॥॥<br>
+            <strong>(अर्थ-:जो दुर्वाकुरोने पूजन करतो तो कुबेरासारखा होतो, जो लाजा यासह पूजा करतो तो यशस्वी होतो, गुणवंत होतो, 
+              मोदकांसह पूजा करणार्‍याला मनाप्रमाणे फळ मिळते. जो घृतक समिधाने हवन करतो त्याला सर्व काही मिळते.)</strong><br><br>
+
+            अष्टौ ब्राह्मणान् सम्यग् ग्राहयित्वा सूर्यवर्चस्वी भवति ।<br>
+            सूर्यग्रहेमहानद्यां प्रतिमासन्निधौ वा जप्त्वा सिद्धमन्त्रो भवति<br>
+            महाविघ्नात् प्रमुच्यते ।<br>
+            महादोषात् प्रमुच्यते ।<br>
+            महाप्रत्यवायात् प्रमुच्यते ।<br>
+            स सर्वविद् भवति स सर्वविद् भवति ।<br>
+            य एवं वेद ।<br>
+            इत्युपनिषत् ॥॥<br>
+            <strong>(अर्थ-: जे आठ ब्राह्मणांना उपनिषदांचे ज्ञानी करतात ते सूर्यासारखे तेजस्वी आहेत. 
+              सूर्यग्रहणाच्या वेळी, नदीच्या काठावर किंवा आपल्या इष्टसमीप 
+              उपनिषदांचे पठण केले तर सिद्धी मिळते. ज्याने जीवनातील अडथळे दूर होतात, पापे कापली जातात, 
+              तो विद्वान होतो, ही अशी ब्रह्म विद्या आहे.)</strong><br><br>
+           
+            <strong>ॐ शान्तिश्शान्तिश्शान्तिः ॥</strong><br><br>
+            
+
+
+
+    </div>
+    <script>
+      function openNav() {
+          document.getElementById("side-navbar").style.width = "320px";
+      }
+
+      function closeNav() {
+          document.getElementById("side-navbar").style.width = "0";
+      }
+
+//  -----------------------------------------------Span Symbole down arrow--------------------------------------------------
+   
+
+
+
+
+       //  -----------------------------------------------atharvashirsha--------------------------------------------------
+           // Function to toggle visibility of suktalist elements
+     function toggleAtharvashirshalist() {
+            var atharvashirshalists = document.querySelectorAll('.atharvashirshalist');
+            atharvashirshalists.forEach(function(atharvashirshalist) {
+                if (atharvashirshalist.style.display === 'none' || atharvashirshalist.style.display === '') {
+                  atharvashirshalist.style.display = 'block';
+                } else {
+                  atharvashirshalist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('atharvashirshabutton').addEventListener('click', function() {
+          toggleAtharvashirshalist();
+        });
+
+        // Function to close the side navbar
+        //function closeNav() {
+            //document.getElementById('side-navbar').style.width = '0';
+        //}
+
+   //  -----------------------------------------------Sukta--------------------------------------------------
+     // Function to toggle visibility of suktalist elements
+     function toggleSuktalist() {
+            var suktalists = document.querySelectorAll('.suktalist');
+            suktalists.forEach(function(suktalist) {
+                if (suktalist.style.display === 'none' || suktalist.style.display === '') {
+                    suktalist.style.display = 'block';
+                } else {
+                    suktalist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('suktabutton').addEventListener('click', function() {
+            toggleSuktalist();
+        });
+
+        // Function to close the side navbar
+        //function closeNav() {
+           // document.getElementById('side-navbar').style.width = '0';
+        //}
+//  -----------------------------------------------Stotra--------------------------------------------------
+function toggleStotralist() {
+            var stotralists = document.querySelectorAll('.stotralist');
+            stotralists.forEach(function(stotralist) {
+                if (stotralist.style.display === 'none' || stotralist.style.display === '') {
+                  stotralist.style.display = 'block';
+                } else {
+                  stotralist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('stotrabutton').addEventListener('click', function() {
+          toggleStotralist();
+        });
+   // Function to close the side navbar
+   //function closeNav() {
+           // document.getElementById('side-navbar').style.width = '0';
+       // }
+
+//  -----------------------------------------------Ashtak--------------------------------------------------
+
+function toggleAshtaklist() {
+            var ashtaklists = document.querySelectorAll('.ashtaklist');
+            ashtaklists.forEach(function(ashtaklist) {
+                if (ashtaklist.style.display === 'none' || ashtaklist.style.display === '') {
+                  ashtaklist.style.display = 'block';
+                } else {
+                  ashtaklist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('ashtakbutton').addEventListener('click', function() {
+          toggleAshtaklist();
+        });
+   // Function to close the side navbar
+   //function closeNav() {
+           // document.getElementById('side-navbar').style.width = '0';
+       // }
+
+//  -----------------------------------------------dindoriaarti--------------------------------------------------
+
+function toggledindoriaartilist() {
+            var dindoriaartilist = document.querySelectorAll('.dindoriaartilist');
+            dindoriaartilist.forEach(function(dindoriaartilist) {
+                if (dindoriaartilist.style.display === 'none' || dindoriaartilist.style.display === '') {
+                  dindoriaartilist.style.display = 'block';
+                } else {
+                  dindoriaartilist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('dindoriaartibutton').addEventListener('click', function() {
+          toggledindoriaartilist();
+        });
+
+
+        //  -----------------------------------------------Vratlist--------------------------------------------------
+
+function toggleVratlist() {
+            var Vratlist = document.querySelectorAll('.Vratlist');
+            Vratlist.forEach(function(Vratlist) {
+                if (Vratlist.style.display === 'none' || Vratlist.style.display === '') {
+                  Vratlist.style.display = 'block';
+                } else {
+                  Vratlist.style.display = 'none';
+                }
+            });
+        }
+
+        // Event listener for suktabutton click
+        document.getElementById('Vratbutton').addEventListener('click', function() {
+          toggleVratlist();
+        });
+
+  </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+</body>
+</html>.
